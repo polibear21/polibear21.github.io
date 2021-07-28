@@ -10891,9 +10891,10 @@ hr.divider-light {
   background-color: #fff;
 }
 
-#mainNav {
+#mainNav { 
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #f4623a; /*change the nav bar color when shrunk*/
+  background-image: linear-gradient(#82D3FF, #42AEEC);
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -10909,10 +10910,10 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #fffff;   /*change nav color when hover over */
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #ffffff !important;     /*change nav color when click */
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10937,27 +10938,32 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #42AEEC; /* change color of nav bar when not shrunk/not scrolled */
+	background-image: linear-gradient(#82D3FF, #42AEEC);/*the gradient effect of nav bar */
+
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f4623a;
+    color: #ffffff;   /*change color when hover */
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #ffffff;  /*change color when hover */
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
-  background-position: center;
+  
+  /*changes the background image currently the cs team, and the color of the overlay thing*/
+  background: linear-gradient(to bottom, rgba(84, 189, 242, 0.5) 0%, rgba(59, 167, 239, 0.5) 100%), url("../images/CSteam.jpg"); /* this changes the cover photo in the main page */
+ 
+ background-position: center; 
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
