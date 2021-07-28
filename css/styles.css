@@ -10893,8 +10893,8 @@ hr.divider-light {
 
 #mainNav { 
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #f4623a; /*change the nav bar color when shrunk*/
-  background-image: linear-gradient(#82D3FF, #42AEEC);
+  background-color: #82D3FF; /*change the nav bar color when shrunk*/
+ 
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
