@@ -7,15 +7,26 @@
 // Scripts
 // 
 
+window.homepagecheck = function(){ //if we are on the homepage aka index.html
+	var check = false;
+	
+	if(window.location.pathname === "/C:/Users/polib/OneDrive/Desktop/LexCSteam-website-develop/index.html"){  //the pathname should be changed
+		check = true;
+		console.log(5);
+	}
+	return check;
+}
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
     var navbarShrink = function () {
+		
         const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
             return;
         }
-        if (window.scrollY < 590) { //change this to change when the nav bar changes color
+        if (window.scrollY < 590 && window.homepagecheck()) { //change this to change when the nav bar changes color
             navbarCollapsible.classList.remove('navbar-shrink')
         } else {
             navbarCollapsible.classList.add('navbar-shrink')
