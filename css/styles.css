@@ -10866,8 +10866,16 @@ body {
   padding: 8rem 0;
 }
 
+.breadcrumb-section {
+  padding-top: 4.5rem;
+  
+}
+
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75) !important;
+}
+.text-white-90 {
+  color: rgba(255, 255, 255, 0.90) !important;
 }
 
 .btn-xl {
@@ -10891,6 +10899,16 @@ hr.divider-light {
   background-color: #fff;
 }
 
+.teamimage {
+padding-bottom: 1rem;
+padding-top : 1rem;
+  border-radius: 10%; /*rounded corners/circle image */
+
+}
+
+
+
+
 #mainNav { 
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: #82D3FF; /*change the nav bar color when shrunk*/
@@ -10899,7 +10917,7 @@ hr.divider-light {
 }
 #mainNav .navbar-brand {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 700;
+  font-weight: 700; 
   color: #212529;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -10931,7 +10949,7 @@ hr.divider-light {
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #ffffff;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
@@ -10955,6 +10973,29 @@ hr.divider-light {
     color: #ffffff;  /*change color when hover */
   }
 }
+
+
+#notmainpageNav {
+	transition: background-color 0.2s ease;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #42AEEC; /* change color of nav bar when not shrunk/not scrolled */
+	background-image: linear-gradient(#82D3FF, #42AEEC);/*the gradient effect of nav bar */
+	
+	font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700; 
+  color: #212529;
+}
+
+#notmainpageNav:hover{
+	color:#ffffff;
+}
+
+#notmainpageNav.nav-color {
+   
+color: #212529;
+
+  }
+
 
 header.masthead {
   padding-top: 10rem;
