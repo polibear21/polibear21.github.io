@@ -7,12 +7,11 @@
 // Scripts
 // 
 
-window.homepagecheck = function(){ // check if we are on the homepage aka index.html
+window.homepagecheck = function(){ //if we are on the homepage aka index.html
 	var check = false;
-	
-	if(window.location.pathname === "/C:/Users/polib/OneDrive/Desktop/LexCSteam-website-develop/index.html"){  //the pathname should be changed
+
+	if(window.location.pathname.includes("index.html")){  //the pathname should be changed
 		check = true;
-		console.log(5);
 	}
 	return check;
 }
