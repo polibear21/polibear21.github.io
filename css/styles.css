@@ -10899,6 +10899,17 @@ hr.divider-light {
   background-color: #fff;
 }
 
+hr.specialdivider {
+	height: 0.48rem;
+  max-width: 40.25rem;
+  margin: 1.5rem auto;
+  background-color: #1C59C4;
+  opacity: 1;
+  margin-top: -0.3rem;
+  margin-bottom: 3rem;
+  border-radius:1.5rem;
+}
+
 .teamimage {
 padding-bottom: 1rem;
 padding-top : 1rem;
@@ -10906,7 +10917,23 @@ padding-top : 1rem;
 
 }
 
+.column {
+  float: left;
+}
 
+.left {
+  width: 75%;
+}
+
+.right {
+  width: 25%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 #mainNav { 
