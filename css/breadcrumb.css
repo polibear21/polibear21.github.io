@@ -44,6 +44,14 @@ ul.breadcrumb li a:hover {
 
 
 
+/* everthing below this is for ting talk page */
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
 /* Display list items side by side */
 ul.breadcrumbspecial li {
   display: inline;
