@@ -101,9 +101,9 @@
             "imageLink": "RyanZhang.png",
             "firstName": "Ryan",
             "lastName": "Zhang",
-            "grade": "",
-            "hobbies": "Track and field, Science Olympiad and reading.",
-            "csExperience": "Java, processing, and arduino."
+            "grade": "9",
+            "hobbies": "Track and field, Science Olympiad, video games, reading",
+            "csExperience": "Java, processing, and Python"
         },
         {
             "imageLink": "AlexLau.png",
