@@ -1,3 +1,7 @@
 #lectureNotes a {
-    color: #0d6efd;
+    color: #0000EE;
+} 
+
+#lectureNotes a:visited {
+    color: #551A8B;
 } 
