@@ -1,4 +1,7 @@
-[
+
+{
+  "lectureNotes" : 
+  [
     {
       "Date": "11/6/2021",
       "Topic": "Intro to Bootstrap",
@@ -13,4 +16,5 @@
       "Description": "HTML tags, CSS, Bootstrap CSS",
       "Link": "https://docs.google.com/presentation/d/1q8uiXnuh9g054BNh6VTG9BhKLkl9UYlQoux6SVd4A7o/edit#slide=id.g35f391192_00"
     }
-]
+  ]
+}
