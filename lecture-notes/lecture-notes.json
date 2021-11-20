@@ -1,4 +1,3 @@
-
 {
   "lectureNotes" : 
   [
@@ -7,14 +6,63 @@
       "Topic": "Intro to Bootstrap",
       "Presenter": "Cassidy Xu",
       "Description": "Bootstrap CSS and the grid system",
-      "Link": "https://docs.google.com/presentation/d/1531_C35Gn3Z4TBecizZR8_oUl3hEKjyCaL1UUpNRi_I/edit#slide=id.g35f391192_00"
+      "Link": "https://docs.google.com/presentation/d/1G5eSWzAa7Mk7yFQGEj_0dsqdOB7CThQ8Y68ajq6iOVU/edit?usp=sharing"
     },
     {
       "Date": "11/13/2021",
       "Topic": "Intro to HTML, CSS, Boostrap",
       "Presenter": "Eli Olcott",
       "Description": "HTML tags, CSS, Bootstrap CSS",
-      "Link": "https://docs.google.com/presentation/d/1q8uiXnuh9g054BNh6VTG9BhKLkl9UYlQoux6SVd4A7o/edit#slide=id.g35f391192_00"
+      "Link": "https://docs.google.com/presentation/d/1qOQlNhPPA6WFJD3GqIHEESCRdL63lWSV8CBMh2QoakY/edit?usp=sharing"
+    },
+    {
+      "Date": "9/11/2021",
+      "Topic": "Learning how to use Jupyter Notebook",
+      "Presenter": "Ellen Wang",
+      "Description": "Installation, user interface components, navigation, edit/command mode, types of cells, how to use os, graphing, IPyWidgets",
+      "Link": "https://docs.google.com/presentation/d/1eLwwN6syqYkA2b7JUYYnIZ7vNOciLkSy_NdYOxYp7fY/edit?usp=sharing"
+    },
+    {
+      "Date": "8/14/2021",
+      "Topic": "NumPy Introduction",
+      "Presenter": "Kenneth Lu",
+      "Description": "NumPy array",
+      "Link": "https://docs.google.com/presentation/d/1oB19MZT84j4qgFD969p5yBbBqCxD-bKg1wVFK2t9pGs/edit?usp=sharing"
+    },
+    {
+      "Date": "8/11/2021",
+      "Topic": "Pandas Presentation 1",
+      "Presenter": "David Zhao",
+      "Description": "Installation, analyzing data",
+      "Link": "https://docs.google.com/presentation/d/1-XJcbyZz_wC-6qZquuXEeHlq45naHmvKLe4eQbEx50M/edit?usp=sharing"
+    },
+    {
+      "Date": "8/11/2021",
+      "Topic": "Pandas Presentation 2",
+      "Presenter": "Albert Lin",
+      "Description": "Random functions",
+      "Link": "https://docs.google.com/presentation/d/1OYuCrqY_3KwMI9J9sI2ji6WJ3f5JIIDVUrdHrEtfqU4/edit?usp=sharing"
+    },
+    {
+      "Date": "8/11/2021",
+      "Topic": "Pandas Presentation 3",
+      "Presenter": "Baoren Liu",
+      "Description": "Random functions",
+      "Link": "https://docs.google.com/presentation/d/1n0fI_Kt230RXqqcX5wkYnnqVBhoDvCgGnP_TZ4Pu1uQ/edit?usp=sharing"
+    },
+    {
+      "Date": "8/13/2021",
+      "Topic": "Pandas Presentation 4",
+      "Presenter": "Trevor Xing-Xie",
+      "Description": "Statistics & graphs",
+      "Link": "https://docs.google.com/presentation/d/1KB5-O5vlYUEzUyYsxDLLaXOemWcFdNIpJZxJjAzA9po/edit?usp=sharing"
+    },
+    {
+      "Date": "8/13/2021",
+      "Topic": "Python Try Except",
+      "Presenter": "Baoren Liu",
+      "Description": "Throw and handle exceptions, custom exceptions",
+      "Link": "https://docs.google.com/presentation/d/1DlUbgdtPZocu7yIA8e2mXFpo8UkEemtl4_EMqMqpDbI/edit?usp=sharing"
     }
   ]
 }
