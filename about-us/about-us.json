@@ -136,6 +136,14 @@
             "grade": "11",
             "hobbies": "swimming, drawing",
             "csExperience": "C++, R, learning Java"
+        },
+        {
+            "imageLink": "Katerina.jpg",
+            "firstName": "Katerina",
+            "lastName": "Lung",
+            "grade": "9",
+            "hobbies": "coding, fencing, drawing",
+            "csExperience": "Java and Python"
         }
     ]
 }
