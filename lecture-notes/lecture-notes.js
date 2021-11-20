@@ -1,11 +1,15 @@
 function populateRows() {
-  $.getJSON("lecture-notes/lecture-notes.json", function(lectureNotes) {
-    lectureNotes.lectureNotes.sort(function(a,b) {
+  $.getJSON("lecture-notes/lecture-notes.json", function(jsonResponse) {
+    // Sort the lecture notes by date
+    jsonResponse.lectureNotes.sort(function(a,b) {
       return new Date(a.Date) - new Date(b.Date)
     });
+
     $.get("lecture-notes/lecture-notes.hbs", function(template) {
+      // Use the handlebars template to generate the HTML
+      // from the lecture notes.
       var notesTemplate = Handlebars.compile(template);
-      $("#lectureNotes tbody").append(notesTemplate(lectureNotes));
+      $("#lectureNotes tbody").append(notesTemplate(jsonResponse));
     })
   })
 }
