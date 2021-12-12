@@ -2,13 +2,6 @@
   "lectureNotes" : 
   [
     {
-      "Date": "11/20/2021",
-      "Topic": "Specific Applications of Bootstrap 5",
-      "Presenter": "Neil Lin",
-      "Description": "List groups, dropdowns, collapse, carousel",
-      "Link": "https://docs.google.com/presentation/d/1SxMO7d-S4iHqi015Z5QyY7myT8_b2IZ6A-gh2SQUuj4/edit?usp=sharing"
-    },
-    {
       "Date": "11/6/2021",
       "Topic": "Intro to Bootstrap",
       "Presenter": "Cassidy Xu",
@@ -21,6 +14,14 @@
       "Presenter": "Eli Olcott",
       "Description": "HTML tags, CSS, Bootstrap CSS",
       "Link": "https://docs.google.com/presentation/d/1qOQlNhPPA6WFJD3GqIHEESCRdL63lWSV8CBMh2QoakY/edit?usp=sharing"
+    },
+    {
+      "Date": "11/20/2021",
+      "Topic": "Specific Applications of Bootstrap 5",
+      "Presenter": "Neil Lin",
+      "Description": "List groups, dropdowns, collapse, carousel",
+      "Link": "https://docs.google.com/presentation/d/1SxMO7d-S4iHqi015Z5QyY7myT8_b2IZ6A-gh2SQUuj4/edit?usp=sharing",
+      "Examples": ["https://bootstrap.neilsedet.repl.co/", "https://bootstrap.neilsedet.repl.co/"]
     },
     {
       "Date": "9/11/2021",
