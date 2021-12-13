@@ -8,8 +8,8 @@
 // 
 
 function dropdown() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
+    document.getElementById("myDropdown").classList.add("show");
+}
   
   // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
