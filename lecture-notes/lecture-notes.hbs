@@ -4,8 +4,10 @@
         <td><a href={{Link}}>{{Topic}}</a></td>
         <td>{{Presenter}}</td>
         <td>{{Description}}</td>
+        <td>
         {{#each Examples}}
             <a href={{this}}>example {{inc @index}}</a>
         {{/each}}
+        </td>
     </tr>
 {{/each}}
