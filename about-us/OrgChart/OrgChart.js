@@ -9,7 +9,7 @@ function SetOrgChart() {
                 
             }
             return [{'v':team.name, 'f':'<div class="teamName">' + team.name + '</div>' + 
-            '<div>Project/team descriptions here</div>' + '<div class="leaders">' + leadHTML}, "Wei Ding", '']
+            '<div class="leaders">' + leadHTML}, "Wei Ding", '']
         })
 
         var people = [];
