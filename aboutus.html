@@ -27,7 +27,9 @@
 
     <!--		<link href = "css/flatlythemebootstrap.css" rel = "stylesheet" /> -->
 
-
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link href="about-us/OrgChart/OrgChart.css" rel="stylesheet" />
+    <link href="about-us/about-us.css" rel="stylesheet" />
 
 </head>
 
@@ -44,19 +46,7 @@
                     <li class="nav-item"><a class="nav-link" href="index.html#Mission">Our Mission</a></li>
                     <li class="nav-item"><a style="color: #ffffff" class="nav-link" href="aboutus.html">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <div class="dropdown">
-                            <a onclick="dropdown()" class="dropbtn nav-link">Projects</button>
-                            <div id="myDropdown" class="dropdown-content">
-                              <a href="harrington.html">Harrington PTA</a>
-                              <a href="cel.html">CEL Data Analysis</a>
-                              <a href="patriots.html">Patriots Day</a>
-                              <a href="hotspots.html">Hotspots</a>
-                              <a href="ttalk.html">Dr. Ting's Talk</a>
-                              <a href="helpfulHands.html">Helpful Hands</a>
-                            </div>
-                          </div>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="learning-center.html">Learning Center</a></li>
 
                 </ul>
@@ -74,67 +64,67 @@
 
     </section>
 
+ 
     <!-- Our Team -->
-    <section class="page-section" style="padding-top: 1.5rem" id="services">
-
-        <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0">Our Team</h2>
-            <hr class="divider" />
-
-
-
-            <div id="us" class="row gx-4 gx-lg-5"></div>
-
-            <div class="col-lg-auto col-md-auto text-center">
-                <div class="mt-5">
-                    <img src="images/Wei.jpg" width="20%" height="30%" class="teamimage" alt="Wei Ding">
-
-                    <h3 class="text-center mb-2 h4">Wei Ding</h3>
-                    <p class="text-muted mb-0">Wei Ding received her Ph.D. degree in Computer Science from the
-                        University of Houston in 2008. She is a Professor of Computer Science in the University of
-                        Massachusetts Boston. Her research interests include data mining, machine learning, artificial
-                        intelligence, computational semantics, and with applications to health sciences, astronomy,
-                        geosciences, and environmental sciences. She has published more than 130 referred research
-                        papers, one book, and has three patents. She is an Associate Editor of the ACM Transaction on
-                        Knowledge Discovery from Data (TKDD), the ACM Transactions on Intelligent Systems and Technology
-                        (TIST), and the Knowledge and Information Systems (KAIS). She served as an editorial board
-                        member of the Journal of Information System Education (JISE), the Journal of Big Data, and the
-                        Social Network Analysis and Mining Journal. She is the recipient of the Best Paper Award at the
-                        2011 IEEE International Conference on Tools with Artificial Intelligence (ICTAI), the Best Paper
-                        Award at the 2010 IEEE International Conference on Cognitive Informatics (ICCI), the Best Poster
-                        Presentation award at the 2008 ACM SIGSPATIAL International Conference on Advances in Geographic
-                        Information Systems (SIGSPAITAL GIS). She received the 2019 WISAY Distinguished Woman in Science
-                        Award from the Yale University, 2018 Outstanding Alumni Award and the Best PhD Work Award
-                        between 2007 and 2010 from the University of Houston. Her research projects have been sponsored
-                        by NSF, NIH, NASA, and DOE. She is an IEEE senior member and an ACM senior member.</p>
+    <h2 class="text-center mt-0">Our Team</h2>
+    <hr class="divider" />
+    <div class="viewmode">
+        <button id="memberdirectorybtn" class="btn btn-info" type="button">
+            Member Directory
+        </button>
+        <button id="orgchartbtn" class="btn btn-info" type="button">
+            Org Chart
+        </button>
+    </div>
+    <div id="orgchart"></div>
+    <div id="memberdirectory">
+        <div class="card card-body">
+            <section class="page-section" style="padding-top: 1.5rem" id="services">
+                <div class="container px-4 px-lg-5">
+                    
+                    <div id="us" class="row gx-4 gx-lg-5"></div>
+                    <div class="col-lg-auto col-md-auto text-center">
+                        <div class="mt-5">
+                            <img src="images/Wei.jpg" width="20%" height="30%" class="teamimage" alt="Wei Ding">
+                            <h3 class="text-center mb-2 h4">Wei Ding</h3>
+                            <p class="text-muted mb-0">Wei Ding received her Ph.D. degree in Computer Science from the
+                                University of Houston in 2008. She is a Professor of Computer Science in the University of
+                                Massachusetts Boston. Her research interests include data mining, machine learning, artificial
+                                intelligence, computational semantics, and with applications to health sciences, astronomy,
+                                geosciences, and environmental sciences. She has published more than 130 referred research
+                                papers, one book, and has three patents. She is an Associate Editor of the ACM Transaction on
+                                Knowledge Discovery from Data (TKDD), the ACM Transactions on Intelligent Systems and Technology
+                                (TIST), and the Knowledge and Information Systems (KAIS). She served as an editorial board
+                                member of the Journal of Information System Education (JISE), the Journal of Big Data, and the
+                                Social Network Analysis and Mining Journal. She is the recipient of the Best Paper Award at the
+                                2011 IEEE International Conference on Tools with Artificial Intelligence (ICTAI), the Best Paper
+                                Award at the 2010 IEEE International Conference on Cognitive Informatics (ICCI), the Best Poster
+                                Presentation award at the 2008 ACM SIGSPATIAL International Conference on Advances in Geographic
+                                Information Systems (SIGSPAITAL GIS). She received the 2019 WISAY Distinguished Woman in Science
+                                Award from the Yale University, 2018 Outstanding Alumni Award and the Best PhD Work Award
+                                between 2007 and 2010 from the University of Houston. Her research projects have been sponsored
+                                by NSF, NIH, NASA, and DOE. She is an IEEE senior member and an ACM senior member.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-
-
-
-
-        </div>
-
-    </section>
-
-    <!-- Alumni -->
-    <section class="page-section" style="padding-top: 1.5rem" id="services">
-        <div class="container px-4 px-lg-5">
-            <h2 class="text-center mt-0" style="margin-top: 30px;">Alumni</h2>
-            <hr class="divider" />
-            <div class="col-lg-auto col-md-auto text-center">
-                <div class="mt-5">
-                    <img src="images/Linda Chen.jpg" width="20%" height="30%" class="teamimage" alt="Wei Ding">
-
-                    <h3 class="text-center mb-2 h4">Linda Chen</h3>
-                    <p class="text-muted mb-0">Currently an undergraduate student of Computer Science Department at MIT.
-                    </p>
+            </section>
+            <!-- Alumni -->
+            <section class="page-section" style="padding-top: 1.5rem" id="services">
+                <div class="container px-4 px-lg-5">
+                    <h2 class="text-center mt-0" style="margin-top: 30px;">Alumni</h2>
+                    <hr class="divider" />
+                    <div class="col-lg-auto col-md-auto text-center">
+                        <div class="mt-5">
+                            <img src="images/Linda Chen.jpg" width="20%" height="30%" class="teamimage" alt="Wei Ding">
+                            <h3 class="text-center mb-2 h4">Linda Chen</h3>
+                            <p class="text-muted mb-0">Currently an undergraduate student of Computer Science Department at MIT.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </section>
         </div>
-    </section>
-
+    </div>
 
     <!-- Footer-->
     <footer class="bg-light py-5">
@@ -143,7 +133,10 @@
         </div>
     </footer>
     <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!-- SimpleLightbox plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <!-- Core theme JS-->
@@ -152,7 +145,7 @@
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
 
     <script
         src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -161,6 +154,7 @@
       ></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="about-us/about-us.js"></script>
+    <script src="about-us/OrgChart/OrgChart.js"></script>
 </body>
 
 </html>
