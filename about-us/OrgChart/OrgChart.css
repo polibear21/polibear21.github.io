@@ -1,0 +1,20 @@
+.leader {
+    font-weight: bold;
+    color:royalblue;
+    display: inline-block;
+}
+
+.leaders {
+    width: 175px;
+}
+
+.avatar {
+    width: 35px;
+    height: 50px;
+    border-radius: 25%;
+}
+
+.teamName {
+    font-weight: bold;
+    font-size: large;
+}
