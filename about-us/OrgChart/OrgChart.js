@@ -5,7 +5,7 @@ function SetOrgChart() {
             
             for (var i = 0; i < team.leads.length; i++) {
                 var imgLink = jsonResponse.people.find(person => person.firstName + " " + person.lastName === team.leads[i]).imageLink;
-                leadHTML += '<div class = "leader">' + '<img src="../images/' + imgLink + '" class="avatar"></img>' + '<div>' + team.leads[i] + '</div></div>';
+                leadHTML += '<div class = "leader">' + '<img src="./images/' + imgLink + '" class="avatar"></img>' + '<div>' + team.leads[i] + '</div></div>';
                 
             }
             return [{'v':team.name, 'f':'<div class="teamName">' + team.name + '</div>' + 
@@ -24,7 +24,7 @@ function SetOrgChart() {
                 team = '';
             else 
                 team =  team.name;
-            people.push([{'v':fullName, 'f': '<img src="../images/' + person.imageLink + '" class="avatar"></img>' + '<div>' + fullName + '</div>'}, team, ''])  
+            people.push([{'v':fullName, 'f': '<img src="./images/' + person.imageLink + '" class="avatar"></img>' + '<div>' + fullName + '</div>'}, team, ''])  
             }
         }
         console.log(people);
