@@ -10,11 +10,15 @@
 
 .avatar {
     width: 35px;
-    height: 50px;
+    height: 50px; 
     border-radius: 25%;
 }
 
 .teamName {
     font-weight: bold;
     font-size: large;
+}
+
+#orgchart {
+    padding-bottom: 50px;
 }
