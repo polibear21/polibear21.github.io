@@ -19,6 +19,7 @@ function renderPeople() {
   $(document).ready(function () {
       renderPeople();
       
+      $("#memberdirectorybtn").focus();
       $("#orgchart").hide();
 
       $("#memberdirectorybtn").click(function() {
