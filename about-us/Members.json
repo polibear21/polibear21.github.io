@@ -4,7 +4,7 @@
        {
            "name": "Database Mapping",
            "leads": ["Baoren Liu", "Cassidy Xu"],
-           "members": ["Jerry Xu", "Ryan Zhang", "Brian Yu"] 
+           "members": ["Jerry Xu", "Brian Yu"] 
        },
        {
             "name": "Helpful Hands",
@@ -133,14 +133,6 @@
             "grade": "9",
             "hobbies": "CAD, 3D Printing, Video Games",
             "csExperience": "Python"
-        },
-        {
-            "imageLink": "Ryan.jpg",
-            "firstName": "Ryan",
-            "lastName": "Zhang",
-            "grade": "9",
-            "hobbies": "Track and field, Science Olympiad, video games, reading",
-            "csExperience": "Java, processing, and Python"
         },
         {
             "imageLink": "AlexLau.png",
