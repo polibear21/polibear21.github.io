@@ -74,10 +74,24 @@
     },
     {
       "Date": "1/15/2022",
-      "Topic": "Software Requirement Analysis",
+      "Topic": "Software Requirement Analysis (step 1 and 2)",
       "Presenter": "William Zhang",
       "Description": "Developing Requirements and Client Goals, Clarifying and Evaluating User Requirements",
       "Link": "https://docs.google.com/presentation/d/1mJ5KdjaDocVl2ugBu2V0BtuuonQtSbK9X6HoDO3upTs/edit?usp=sharing"
+    },
+    {
+      "Date": "1/22/2022",
+      "Topic": "Step 3 Requirement Analysis",
+      "Presenter": "Alex Lau",
+      "Description": "Assure that the requirements continue to meet the needs and expectations of its clients",
+      "Link": "https://docs.google.com/presentation/d/1vRGMobIwhcQvzRXbyRbaA7ImWgTFDDMkn0XDJj11E9c/edit?usp=sharing"
+    },
+    {
+      "Date": "1/22/2022",
+      "Topic": "Step 4 Requirement Analysis",
+      "Presenter": "Kevin Zhu",
+      "Description": "Website prototyping",
+      "Link": "https://docs.google.com/presentation/d/1jKTgxMjpdyEEY1YbjxqQHZXf1IDisQWvM4Lu3W8ieF4/edit?usp=sharing"
     }
   ]
 }
