@@ -19,7 +19,7 @@
        {
             "name": "New Moon",
             "leads": ["Albert Lin", "Trevor Xing-Xie"],
-            "members": ["Eli Olcott", "Ethan Shao", "Ivy Tang", "Kevin Zhu", "William Zhang"] 
+            "members": ["Eli Olcott", "Ethan Shao", "Ivy Tang", "Kevin Zhu", "William Zhang", "Alex Lau"] 
        },
        {
             "name": "UMass Website Development",
@@ -237,6 +237,14 @@
             "grade": "9",
             "hobbies": "coding, fencing, drawing",
             "csExperience": "java and python"
+        },
+        {
+            "imageLink": "WilliamZhang.jpg",
+            "firstName": "William",
+            "lastName": "Zhang",
+            "grade": "9",
+            "hobbies": "I typically play the violin, do olympiad chemistry (USNCO), competitive programming (USACO, Codeforces, ACSL), run cross country/track, journal, coach science olympiad and build Android apps in my free time as fun hobbies.",
+            "csExperience": "Java (Swing, JavaFX, Spring), C++ (standard library), Python (numpy and pandas libraries)"
         }
     ]
 }
