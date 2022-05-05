@@ -2,9 +2,9 @@
    "teams":
    [
        {
-           "name": "Database Mapping",
+           "name": "Lexington Heroes",
            "leads": ["Baoren Liu", "Cassidy Xu"],
-           "members": ["Jerry Xu", "Brian Yu"] 
+           "members": ["Jerry Xu", "Edward Zhu", "Ellen Wang", "Irene Gao", "Ashley Zhang"] 
        },
        {
             "name": "Helpful Hands",
@@ -14,17 +14,17 @@
        {
             "name": "Hotspots",
             "leads": ["Gabriel Sui", "Everest Yang"],
-            "members": ["Edward Zhu", "Joseph Jia"] 
+            "members": ["Edward Zhu", "Joseph Jia", "Yuanheng Mao"] 
        },
        {
             "name": "New Moon",
             "leads": ["William Zhang", "Ivy Tang", "Ethan Shao", "Trevor Xing-Xie"],
-            "members": ["Eli Olcott", "Kevin Zhu", "Alex Lau"] 
+            "members": ["Kevin Zhu", "Alex Lau", "Katerina Lung", "Albert Lin"] 
        },
        {
-            "name": "UMass Website Development",
-            "leads": ["David Zhao"],
-            "members": ["Neil Lin", "Jaden Leung", "Audi Lin", "Katerina Lung"] 
+            "name": "Subtitles",
+            "leads": ["David Zhao", "Trevor Xing-Xie"],
+            "members": ["Alex Lau", "Eli Olcott", "Ethan Shao", "Irene Gao", "Neil Lin", "Jaden Leung", "Audi Lin", "Joseph Jia"] 
        }
    ],
    
