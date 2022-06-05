@@ -2,6 +2,13 @@
   "lectureNotes" : 
   [
     {
+      "Date": "1/30/2021",
+      "Topic": "Python Topics to Learn",
+      "Presenter": "Everest Yang",
+      "Description": "Potential Python Topics for the team to learn and teach to each other.",
+      "Link": "https://docs.google.com/presentation/d/1z_c2TUIbTactm_q5aNEMQNMFYcJvvdNQ8LzlWQkxXBY/edit?usp=sharing"
+    },
+    {
       "Date": "11/6/2021",
       "Topic": "Intro to Bootstrap",
       "Presenter": "Cassidy Xu",
