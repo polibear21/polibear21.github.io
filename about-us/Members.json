@@ -111,6 +111,22 @@
             "csExperience": ""
         },
         {
+            "imageLink": "CassidyXu.png",
+            "firstName": "Cassidy",
+            "lastName": "Xu",
+            "grade": "11",
+            "hobbies": "Coding, reading, hiking",
+            "csExperience": "Java, Python, HTML, CSS"
+        },
+        {
+            "imageLink": "WilliamZhang.jpg",
+            "firstName": "William",
+            "lastName": "Zhang",
+            "grade": "9",
+            "hobbies": "I typically play the violin, do olympiad chemistry (USNCO), competitive programming (USACO, Codeforces, ACSL), run cross country/track, journal, coach science olympiad and build Android apps in my free time as fun hobbies.",
+            "csExperience": "Java (Swing, JavaFX, Spring), C++ (standard library), Python (numpy and pandas libraries)"
+        },
+        {
             "imageLink": "JerryXu.jpg",
             "firstName": "Jerry",
             "lastName": "Xu",
@@ -215,14 +231,6 @@
             "csExperience": "C#, C++, C, Java, Python, HTML, CSS, and JS"
         },
         {
-            "imageLink": "CassidyXu.png",
-            "firstName": "Cassidy",
-            "lastName": "Xu",
-            "grade": "11",
-            "hobbies": "Coding, reading, hiking",
-            "csExperience": "Java, Python, HTML, CSS"
-        },
-        {
             "imageLink": "NeilLin.png",
             "firstName": "Neil",
             "lastName": "Lin",
@@ -237,14 +245,6 @@
             "grade": "9",
             "hobbies": "coding, fencing, drawing",
             "csExperience": "java and python"
-        },
-        {
-            "imageLink": "WilliamZhang.jpg",
-            "firstName": "William",
-            "lastName": "Zhang",
-            "grade": "9",
-            "hobbies": "I typically play the violin, do olympiad chemistry (USNCO), competitive programming (USACO, Codeforces, ACSL), run cross country/track, journal, coach science olympiad and build Android apps in my free time as fun hobbies.",
-            "csExperience": "Java (Swing, JavaFX, Spring), C++ (standard library), Python (numpy and pandas libraries)"
         }
     ]
 }
