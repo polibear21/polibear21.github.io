@@ -1,9 +1,9 @@
 function renderPeople() {
     $.getJSON("about-us/Members.json", function(jsonResponse) {
-      // Sort the people by last name
-      jsonResponse.people.sort(function(a,b) {
-        return a.lastName.localeCompare(b.lastName);
-      });
+      // // Sort the people by last name
+      // jsonResponse.people.sort(function(a,b) {
+      //   return a.lastName.localeCompare(b.lastName);
+      // });
   
       jsonResponse.people = jsonResponse.people.filter(person => person.firstName + " " + person.lastName !== "Wei Ding");
 
