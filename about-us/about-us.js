@@ -1,6 +1,7 @@
 function renderPeople() {
     $.getJSON("about-us/Members.json", function(jsonResponse) {
-      // // Sort the people by last name
+      // Sort the people by last name.
+      // Commented out to display the people by original order
       // jsonResponse.people.sort(function(a,b) {
       //   return a.lastName.localeCompare(b.lastName);
       // });
