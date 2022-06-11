@@ -1,0 +1,8 @@
+.viewmode {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.viewmode button {
+    width: 200px;
+}

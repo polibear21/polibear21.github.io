@@ -1,0 +1,13 @@
+{{#each lectureNotes}}
+    <tr>
+        <td>{{Date}}</td>
+        <td><a href={{Link}} rel="noopener noreferrer nofollow" target="_blank">{{Topic}}</a></td>
+        <td>{{Presenter}}</td>
+        <td>{{Description}}</td>
+        <td>
+        {{#each Examples}}
+            <a href={{this}} rel="noopener noreferrer nofollow" target="_blank">example {{inc @index}}</a>
+        {{/each}}
+        </td>
+    </tr>
+{{/each}}
