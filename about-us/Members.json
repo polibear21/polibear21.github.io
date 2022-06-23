@@ -79,30 +79,6 @@
             "csExperience": "Python, Javascript and C++. Intern for Boston Public Schools on data evaluation and management projects. Intern for digital consumer behavior research."
         },
         {
-            "imageLink": "Gabriel.jpg",
-            "firstName": "Gabriel",
-            "lastName": "Sui",
-            "grade": "12",
-            "hobbies": "Playing piano and tennis",
-            "csExperience": "USACO gold medalist, TA / intern experience for many years, 5 on AP comp sci exam"
-        },
-        {
-            "imageLink": "Albert.jpg",
-            "firstName": "Albert",
-            "lastName": "Lin",
-            "grade": "12",
-            "hobbies": "Football, Video Games",
-            "csExperience": "Java, Python, C++, Ruby, HTML/CSS, JS, vex robotics, TA/intern experience, AP CS A (5)"
-        },
-        {
-            "imageLink": "Frank.jpg",
-            "firstName": "Frank",
-            "lastName": "Xia",
-            "grade": "12",
-            "hobbies": "Reading, Video Games, Civil Engineering",
-            "csExperience": "Java, Python, C++"
-        },
-        {
             "imageLink": "CassidyXu.png",
             "firstName": "Cassidy",
             "lastName": "Xu",
