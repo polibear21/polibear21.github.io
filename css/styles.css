@@ -3464,7 +3464,7 @@ textarea.form-control-lg {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 
