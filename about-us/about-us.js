@@ -1,3 +1,4 @@
+
 function renderPeople() {
     $.getJSON("about-us/Members.json", function(jsonResponse) {
 
@@ -10,6 +11,10 @@ function renderPeople() {
 
       // team member section
       jsonResponse.member = jsonResponse.member.filter(person => person.firstName + " " + person.lastName !== "Wei Ding");
+
+      console.log(jsonResponse.founding)
+      console.log(jsonResponse.leader)
+      console.log(jsonResponse.member)
 
       $.get("about-us/about-us.hbs", function(template) {
         // Use the handlebars template to generate the HTML
