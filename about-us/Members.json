@@ -30,15 +30,6 @@
    
     "founding":
     [
-        
-        {
-            "imageLink": "Baoren.jpg",
-            "firstName": "Baoren",
-            "lastName": "Liu",
-            "grade": "10",
-            "hobbies": "Tennis, Piano and Video GamesTennis, Piano and Video Games",
-            "csExperience": "Java, Python, HTML, JavaScript, C++, React and developing Android Apps."
-        },
         {
             "imageLink": "everest.jpg",
             "firstName": "Everest",
@@ -46,6 +37,14 @@
             "grade": "11th",
             "hobbies": "Watching Movies/TV, playing tennis, spending time with friends and family",
             "csExperience": "HTML, CSS, JavaScript, Python, C++, Java"
+        },
+        {
+            "imageLink": "Baoren.jpg",
+            "firstName": "Baoren",
+            "lastName": "Liu",
+            "grade": "10",
+            "hobbies": "Tennis, Piano and Video GamesTennis, Piano and Video Games",
+            "csExperience": "Java, Python, HTML, JavaScript, C++, React and developing Android Apps."
         },
         {
             "imageLink": "Wei.jpg",
