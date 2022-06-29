@@ -34,7 +34,7 @@
             "imageLink": "everest.jpg",
             "firstName": "Everest",
             "lastName": "Yang",
-            "grade": "11th",
+            "grade": "12",
             "hobbies": "Coding, Debate, Tennis, Piano, Movies/TV",
             "csExperience": "Advanced in Python, HTML, CSS and proficient in Java, C++, Javascript, and Time Series Machine Learning. Stanford CS Summer Program, ML Research Paper on Predicing Flood Streamflow with Auto-Regressive Intergrated Moving Average Models; enjoys Website Development and Artificial Intelligence; Passionate about service-oriented projects"
             
@@ -43,23 +43,15 @@
             "imageLink": "Baoren.jpg",
             "firstName": "Baoren",
             "lastName": "Liu",
-            "grade": "10",
+            "grade": "11",
             "hobbies": "Tennis, Piano and Video GamesTennis, Piano and Video Games",
             "csExperience": "Java, Python, HTML, JavaScript, C++, React and developing Android Apps."
-        },
-        {
-            "imageLink": "Wei.jpg",
-            "firstName": "Wei",
-            "lastName": "Ding",
-            "grade": "",
-            "hobbies": "",
-            "csExperience": ""
         },
         {
             "imageLink": "David.jpg",
             "firstName": "David",
             "lastName": "Zhao",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Music, Volleyball",
             "csExperience": "Java, Python, HTML and CSS"
         },
@@ -67,7 +59,7 @@
             "imageLink": "Trevor.jpg",
             "firstName": "Trevor",
             "lastName": "Xing-Xie",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Soccer, Photo & Video Editing",
             "csExperience": "Java (5 on AP CS A Exam), Python"
         },
@@ -75,7 +67,7 @@
             "imageLink": "Ellen.jpg",
             "firstName": "Ellen",
             "lastName": "Wang",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Enjoy fencing, writing for the Lexington High School Newspaper, sewing, and mentoring young children in STEM fields.",
             "csExperience": "Python, Javascript and C++. Intern for Boston Public Schools on data evaluation and management projects. Intern for digital consumer behavior research."
         }
@@ -86,7 +78,7 @@
             "imageLink": "CassidyXu.png",
             "firstName": "Cassidy",
             "lastName": "Xu",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Coding, reading, hiking",
             "csExperience": "Java, Python, HTML, CSS"
         },
@@ -94,7 +86,7 @@
             "imageLink": "WilliamZhang.jpg",
             "firstName": "William",
             "lastName": "Zhang",
-            "grade": "9",
+            "grade": "10",
             "hobbies": "I typically play the violin, do olympiad chemistry (USNCO), competitive programming (USACO, Codeforces, ACSL), run cross country/track, journal, coach science olympiad and build Android apps in my free time as fun hobbies.",
             "csExperience": "Java (Swing, JavaFX, Spring), C++ (standard library), Python (numpy and pandas libraries)"
         },
@@ -102,7 +94,7 @@
             "imageLink": "Jaden.jpg",
             "firstName": "Jaden",
             "lastName": "Leung",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Rubik's Cube, Video Games, Hiking, Biking, Tutoring",
             "csExperience": "Java, C++, HTML/CSS, 5 on AP CS Exam"
         },
@@ -110,7 +102,7 @@
             "imageLink": "IvyTang.png",
             "firstName": "Ivy",
             "lastName": "Tang",
-            "grade": "10",
+            "grade": "11",
             "hobbies": "Reading, hanging out with friends, and tutoring",
             "csExperience": "Java and Python"
         },
@@ -118,7 +110,7 @@
             "imageLink": "EthanShao.jpg",
             "firstName": "Ethan",
             "lastName": "Shao",
-            "grade": "8",
+            "grade": "9",
             "hobbies": "Robotics, Biking, Chess",
             "csExperience": "Python, Html, Css"
         }
@@ -129,7 +121,7 @@
             "imageLink": "JerryXu.jpg",
             "firstName": "Jerry",
             "lastName": "Xu",
-            "grade": "8",
+            "grade": "9",
             "hobbies": "MTG, ping-pong",
             "csExperience": "Java, Python, HTML, CSS"
         },
@@ -137,7 +129,7 @@
             "imageLink": "Audi.png",
             "firstName": "Audi",
             "lastName": "Lin",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Swimming, Robotics, Reading Webtoons :D",
             "csExperience": "C++, Java, Python"
         },
@@ -145,7 +137,7 @@
             "imageLink": "KevinZhu.png",
             "firstName": "Kevin",
             "lastName": "Zhu",
-            "grade": "9",
+            "grade": "10",
             "hobbies": "CAD, 3D Printing, Video Games",
             "csExperience": "Python"
         },
@@ -153,7 +145,7 @@
             "imageLink": "AlexLau.png",
             "firstName": "Alex",
             "lastName": "Lau",
-            "grade": "10th",
+            "grade": "11",
             "hobbies": "biking, running, tennis, soccer, video games, badminton, hiking, canoeing, camping",
             "csExperience": "python and java"
         },
@@ -161,7 +153,7 @@
             "imageLink": "Edward.jpg",
             "firstName": "Edward",
             "lastName": "Zhu",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Running Track, Reading, Solving Rubik's Cubes",
             "csExperience": "Java (5 on AP Comp Sci A Exam), C++, Python"
         },
@@ -169,7 +161,7 @@
             "imageLink": "Ashley.jpg",
             "firstName": "Ashley",
             "lastName": "Zhang",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "swimming, drawing",
             "csExperience": "C++, R, learning Java"
         },
@@ -177,7 +169,7 @@
             "imageLink": "JosephJia.jpg",
             "firstName": "Joseph",
             "lastName": "Jia",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Robotics, Baseball, Gaming",
             "csExperience": "Python, Java, C++, Javascript, Published ML Research Paper to Journal of Student Research (worked with Professor Ramezani of UCLA), CMU CS Summer Program, 9 years of competitive robotics: FLL, FTC, and Vex (Reached States/Regionals in 8 of 9 years), coded AI Battleship and Tetris games, Hackathons, some competitive programming experience, some app development"
         },
@@ -185,7 +177,7 @@
             "imageLink": "Yuanheng.jpg",
             "firstName": "Yuanheng",
             "lastName": "Mao",
-            "grade": "8",
+            "grade": "9",
             "hobbies": "Soccer, Coding, Tennis, Stocks",
             "csExperience": "Processing, Arduino, Java, Python, basics of HTML and Javascript"
         },
@@ -193,7 +185,7 @@
             "imageLink": "IreneGao.png",
             "firstName": "Irene",
             "lastName": "Gao",
-            "grade": "10",
+            "grade": "11",
             "hobbies": "I enjoy reading novels, drawing digitally, watching ballet, doing crew and learning languages in my spare time.",
             "csExperience": "I am currently the Gold level for the USACO competition and I am comfortable to program in Java, Python and C++, some web development."
         },
@@ -201,7 +193,7 @@
             "imageLink": "EliOlcott.png",
             "firstName": "Eli",
             "lastName": "Olcott",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Coding, soccer, video games, and math",
             "csExperience": "C#, C++, C, Java, Python, HTML, CSS, and JS"
         },
@@ -209,7 +201,7 @@
             "imageLink": "NeilLin.png",
             "firstName": "Neil",
             "lastName": "Lin",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "swimming, coding",
             "csExperience": "java, python, c++"
         }
