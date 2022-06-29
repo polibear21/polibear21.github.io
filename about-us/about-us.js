@@ -21,6 +21,8 @@ function renderPeople() {
         // from people's information.
         var peopleTemplate = Handlebars.compile(template);
         $("#member").append(peopleTemplate(jsonResponse));
+        $("#founding").append(peopleTemplate(jsonResponse));
+        $("#leader").append(peopleTemplate(jsonResponse));
       })
     })
   }
