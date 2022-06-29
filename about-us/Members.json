@@ -19,7 +19,7 @@
        {
             "name": "New Moon",
             "leads": ["William Zhang", "Ivy Tang", "Ethan Shao", "Trevor Xing-Xie"],
-            "members": ["Kevin Zhu", "Alex Lau", "Katerina Lung"] 
+            "members": ["Kevin Zhu", "Alex Lau"] 
        },
        {
             "name": "Subtitles",
@@ -28,32 +28,9 @@
        }
    ],
    
-    "people":
+    "founding":
     [
-        {
-            "imageLink": "Wei.jpg",
-            "firstName": "Wei",
-            "lastName": "Ding",
-            "grade": "",
-            "hobbies": "",
-            "csExperience": ""
-        },
-        {
-            "imageLink": "Trevor.jpg",
-            "firstName": "Trevor",
-            "lastName": "Xing-Xie",
-            "grade": "11",
-            "hobbies": "Soccer, Photo & Video Editing",
-            "csExperience": "Java (5 on AP CS A Exam), Python"
-        },
-        {
-            "imageLink": "David.jpg",
-            "firstName": "David",
-            "lastName": "Zhao",
-            "grade": "11",
-            "hobbies": "Music, Volleyball",
-            "csExperience": "Java, Python, HTML and CSS"
-        },
+        
         {
             "imageLink": "Baoren.jpg",
             "firstName": "Baoren",
@@ -71,13 +48,40 @@
             "csExperience": "HTML, CSS, JavaScript, Python, C++, Java"
         },
         {
+            "imageLink": "Wei.jpg",
+            "firstName": "Wei",
+            "lastName": "Ding",
+            "grade": "",
+            "hobbies": "",
+            "csExperience": ""
+        },
+        {
+            "imageLink": "David.jpg",
+            "firstName": "David",
+            "lastName": "Zhao",
+            "grade": "11",
+            "hobbies": "Music, Volleyball",
+            "csExperience": "Java, Python, HTML and CSS"
+        },
+        {
+            "imageLink": "Trevor.jpg",
+            "firstName": "Trevor",
+            "lastName": "Xing-Xie",
+            "grade": "11",
+            "hobbies": "Soccer, Photo & Video Editing",
+            "csExperience": "Java (5 on AP CS A Exam), Python"
+        },
+        {
             "imageLink": "Ellen.jpg",
             "firstName": "Ellen",
             "lastName": "Wang",
             "grade": "11",
             "hobbies": "Enjoy fencing, writing for the Lexington High School Newspaper, sewing, and mentoring young children in STEM fields.",
             "csExperience": "Python, Javascript and C++. Intern for Boston Public Schools on data evaluation and management projects. Intern for digital consumer behavior research."
-        },
+        }
+    ],
+
+    "leader": [
         {
             "imageLink": "CassidyXu.png",
             "firstName": "Cassidy",
@@ -94,6 +98,33 @@
             "hobbies": "I typically play the violin, do olympiad chemistry (USNCO), competitive programming (USACO, Codeforces, ACSL), run cross country/track, journal, coach science olympiad and build Android apps in my free time as fun hobbies.",
             "csExperience": "Java (Swing, JavaFX, Spring), C++ (standard library), Python (numpy and pandas libraries)"
         },
+        {
+            "imageLink": "Jaden.jpg",
+            "firstName": "Jaden",
+            "lastName": "Leung",
+            "grade": "11",
+            "hobbies": "Rubik's Cube, Video Games, Hiking, Biking, Tutoring",
+            "csExperience": "Java, C++, HTML/CSS, 5 on AP CS Exam"
+        },
+        {
+            "imageLink": "IvyTang.png",
+            "firstName": "Ivy",
+            "lastName": "Tang",
+            "grade": "10",
+            "hobbies": "Reading, hanging out with friends, and tutoring",
+            "csExperience": "Java and Python"
+        },
+        {
+            "imageLink": "EthanShao.jpg",
+            "firstName": "Ethan",
+            "lastName": "Shao",
+            "grade": "8",
+            "hobbies": "Robotics, Biking, Chess",
+            "csExperience": "Python, Html, Css"
+        }
+    ],
+
+    "member":[
         {
             "imageLink": "JerryXu.jpg",
             "firstName": "Jerry",
@@ -135,14 +166,6 @@
             "csExperience": "Java (5 on AP Comp Sci A Exam), C++, Python"
         },
         {
-            "imageLink": "Jaden.jpg",
-            "firstName": "Jaden",
-            "lastName": "Leung",
-            "grade": "11",
-            "hobbies": "Rubik's Cube, Video Games, Hiking, Biking, Tutoring",
-            "csExperience": "Java, C++, HTML/CSS, 5 on AP CS Exam"
-        },
-        {
             "imageLink": "Ashley.jpg",
             "firstName": "Ashley",
             "lastName": "Zhang",
@@ -151,28 +174,12 @@
             "csExperience": "C++, R, learning Java"
         },
         {
-            "imageLink": "IvyTang.png",
-            "firstName": "Ivy",
-            "lastName": "Tang",
-            "grade": "10",
-            "hobbies": "Reading, hanging out with friends, and tutoring",
-            "csExperience": "Java and Python"
-        },
-        {
             "imageLink": "JosephJia.jpg",
             "firstName": "Joseph",
             "lastName": "Jia",
             "grade": "11",
             "hobbies": "Robotics, Baseball, Gaming",
             "csExperience": "Python, Java, C++, Javascript, Published ML Research Paper to Journal of Student Research (worked with Professor Ramezani of UCLA), CMU CS Summer Program, 9 years of competitive robotics: FLL, FTC, and Vex (Reached States/Regionals in 8 of 9 years), coded AI Battleship and Tetris games, Hackathons, some competitive programming experience, some app development"
-        },
-        {
-            "imageLink": "EthanShao.jpg",
-            "firstName": "Ethan",
-            "lastName": "Shao",
-            "grade": "8",
-            "hobbies": "Robotics, Biking, Chess",
-            "csExperience": "Python, Html, Css"
         },
         {
             "imageLink": "Yuanheng.jpg",
@@ -205,14 +212,6 @@
             "grade": "11",
             "hobbies": "swimming, coding",
             "csExperience": "java, python, c++"
-        },
-        {
-            "imageLink": "KaterinaLung.png",
-            "firstName": "Katerina",
-            "lastName": "Lung",
-            "grade": "9",
-            "hobbies": "coding, fencing, drawing",
-            "csExperience": "java and python"
         }
     ]
 }
