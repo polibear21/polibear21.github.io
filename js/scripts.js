@@ -69,7 +69,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .on-page')
+        document.querySelectorAll('.navbar-brand, .on-page')
     );
     responsiveNavItems.map((responsiveNavItem) => {
         responsiveNavItem.addEventListener('click', () => {
