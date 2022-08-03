@@ -3464,7 +3464,7 @@ textarea.form-control-lg {
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 
@@ -7033,6 +7033,7 @@ textarea.form-control-lg {
 
 .mb-0 {
   margin-bottom: 0 !important;
+  font-size: 19px
 }
 
 .mb-1 {
@@ -7045,6 +7046,7 @@ textarea.form-control-lg {
 
 .mb-3 {
   margin-bottom: 1rem !important;
+  
 }
 
 .mb-4 {

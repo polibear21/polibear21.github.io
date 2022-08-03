@@ -5,14 +5,14 @@
       "Date": "1/30/2021",
       "Topic": "Python Topics to Learn",
       "Presenter": "Everest Yang",
-      "Description": "Potential Python Topics for the team to learn and teach to each other",
+      "Description": "Potential Python Topics for the team to learn and teach to each other (CEL)",
       "Link": "https://docs.google.com/presentation/d/1z_c2TUIbTactm_q5aNEMQNMFYcJvvdNQ8LzlWQkxXBY/edit?usp=sharing"
     },
     {
       "Date": "11/6/2021",
       "Topic": "Intro to Bootstrap",
       "Presenter": "Cassidy Xu",
-      "Description": "Bootstrap CSS and the grid system",
+      "Description": "Bootstrap CSS and the grid system (Used in this Team Website)",
       "Link": "https://docs.google.com/presentation/d/1G5eSWzAa7Mk7yFQGEj_0dsqdOB7CThQ8Y68ajq6iOVU/edit?usp=sharing"
     },
     {
@@ -48,77 +48,77 @@
       "Date": "8/14/2021",
       "Topic": "NumPy Introduction",
       "Presenter": "Kenneth Lu",
-      "Description": "NumPy array",
+      "Description": "NumPy array (Used in CEL Data Analysis Project)",
       "Link": "https://docs.google.com/presentation/d/1oB19MZT84j4qgFD969p5yBbBqCxD-bKg1wVFK2t9pGs/edit?usp=sharing"
     },
     {
       "Date": "8/11/2021",
       "Topic": "Pandas Presentation 1",
       "Presenter": "David Zhao",
-      "Description": "Installation, analyzing data",
+      "Description": "Installation, analyzing data (Used in CEL Data Analysis Project)",
       "Link": "https://docs.google.com/presentation/d/1-XJcbyZz_wC-6qZquuXEeHlq45naHmvKLe4eQbEx50M/edit?usp=sharing"
     },
     {
       "Date": "8/11/2021",
       "Topic": "Pandas Presentation 2",
       "Presenter": "Albert Lin",
-      "Description": "Random functions",
+      "Description": "Random functions (Used in CEL Data Analysis Project)",
       "Link": "https://docs.google.com/presentation/d/1OYuCrqY_3KwMI9J9sI2ji6WJ3f5JIIDVUrdHrEtfqU4/edit?usp=sharing"
     },
     {
       "Date": "8/11/2021",
       "Topic": "Pandas Presentation 3",
       "Presenter": "Baoren Liu",
-      "Description": "Random functions",
+      "Description": "Modifying Data in Pandas (Used in CEL Data Analysis Project)",
       "Link": "https://docs.google.com/presentation/d/1n0fI_Kt230RXqqcX5wkYnnqVBhoDvCgGnP_TZ4Pu1uQ/edit?usp=sharing"
     },
     {
       "Date": "8/13/2021",
       "Topic": "Pandas Presentation 4",
       "Presenter": "Trevor Xing-Xie",
-      "Description": "Statistics & graphs",
+      "Description": "Statistics & graphs (Used in CEL Data Analysis Project)",
       "Link": "https://docs.google.com/presentation/d/1KB5-O5vlYUEzUyYsxDLLaXOemWcFdNIpJZxJjAzA9po/edit?usp=sharing"
     },
     {
       "Date": "8/13/2021",
       "Topic": "Python Try Except",
       "Presenter": "Baoren Liu",
-      "Description": "Throw and handle exceptions, custom exceptions",
+      "Description": "Throw and handle exceptions, custom exceptions (Used in CEL Data Analysis Project)",
       "Link": "https://docs.google.com/presentation/d/1DlUbgdtPZocu7yIA8e2mXFpo8UkEemtl4_EMqMqpDbI/edit?usp=sharing"
     },
     {
       "Date": "10/23/2021",
       "Topic": "CLA Award Showcase 2021",
       "Presenter": "Everest Yang, Baoren Liu",
-      "Description": "A presentation for \"Project of the Year\" award from CLA",
+      "Description": "A presentation for \"Project of the Year\" award from CLA (Founding Members)",
       "Link": "https://docs.google.com/presentation/d/1RK0qSQeou96ZIkT7uNcSgBzyLIuPKA-1JyCyJ0sdvLw/edit?usp=sharing"
     },
     {
       "Date": "1/15/2022",
-      "Topic": "Software Requirement Analysis (step 1 and 2)",
+      "Topic": "Software Requirement Analysis (Step 1 and 2)",
       "Presenter": "William Zhang",
-      "Description": "Developing Requirements and Client Goals, Clarifying and Evaluating User Requirements",
+      "Description": "Developing Requirements and Client Goals, Clarifying and Evaluating User Requirements (Used in Lunar Arts Project)",
       "Link": "https://docs.google.com/presentation/d/1mJ5KdjaDocVl2ugBu2V0BtuuonQtSbK9X6HoDO3upTs/edit?usp=sharing"
     },
     {
       "Date": "1/22/2022",
       "Topic": "Step 3 Requirement Analysis",
       "Presenter": "Alex Lau",
-      "Description": "Assure that the requirements continue to meet the needs and expectations of its clients",
+      "Description": "Assure that the requirements continue to meet the needs and expectations of its clients (Used in Lunar Arts Project)",
       "Link": "https://docs.google.com/presentation/d/1vRGMobIwhcQvzRXbyRbaA7ImWgTFDDMkn0XDJj11E9c/edit?usp=sharing"
     },
     {
       "Date": "1/22/2022",
       "Topic": "Step 4 Requirement Analysis",
       "Presenter": "Kevin Zhu",
-      "Description": "Website prototyping",
+      "Description": "Website prototyping (Used in Lunar Arts Project)",
       "Link": "https://docs.google.com/presentation/d/1jKTgxMjpdyEEY1YbjxqQHZXf1IDisQWvM4Lu3W8ieF4/edit?usp=sharing"
     },
     {
       "Date": "2/12/2022",
       "Topic": "Google Charts",
       "Presenter": "Jerry Xu",
-      "Description": "Google chart: powerful, simple to use, and free.",
+      "Description": "Google chart: powerful, simple to use, and free (Used in this Team Website)",
       "Link": "https://docs.google.com/presentation/d/14xHyvX3xVhvYjfJ4PJAeSyR1fAt33QVd9B_bsuZx3s8/edit?usp=sharing"
     },
     {
@@ -132,7 +132,7 @@
       "Date": "4/30/2022",
       "Topic": "Wordpress Basics",
       "Presenter": "Trevor Xing-Xie",
-      "Description": "Basics of Wordpress: Setup, Plugins, Pages and Shortcodes",
+      "Description": "Basics of Wordpress: Setup, Plugins, Pages and Shortcodes (Used in Patriots Day Project)",
       "Link": "https://docs.google.com/presentation/d/1XtxN4EF7yfmMOlZ5glcIpRc26gCGG4YG3PK842epeng/edit?usp=sharing"
     }
   ]

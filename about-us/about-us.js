@@ -1,18 +1,22 @@
+
 function renderPeople() {
     $.getJSON("about-us/Members.json", function(jsonResponse) {
-      // Sort the people by last name.
-      // Commented out to display the people by original order
-      // jsonResponse.people.sort(function(a,b) {
-      //   return a.lastName.localeCompare(b.lastName);
-      // });
-  
-      jsonResponse.people = jsonResponse.people.filter(person => person.firstName + " " + person.lastName !== "Wei Ding");
 
-      $.get("about-us/about-us.hbs", function(template) {
+      $.get("about-us/founding.hbs", function(template) {
         // Use the handlebars template to generate the HTML
         // from people's information.
         var peopleTemplate = Handlebars.compile(template);
-        $("#us").append(peopleTemplate(jsonResponse));
+        $("#founding").append(peopleTemplate(jsonResponse));
+      })
+
+      $.get("about-us/leader.hbs", function(template) {
+        var peopleTemplate = Handlebars.compile(template);
+        $("#leader").append(peopleTemplate(jsonResponse));
+      })
+
+      $.get("about-us/member.hbs", function(template) {
+        var peopleTemplate = Handlebars.compile(template);
+        $("#member").append(peopleTemplate(jsonResponse));
       })
     })
   }
