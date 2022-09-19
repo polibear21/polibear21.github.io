@@ -31,21 +31,20 @@
     "founding":
     [
         {
-            "imageLink": "everest.jpg",
-            "firstName": "Everest",
-            "lastName": "Yang",
+            "imageLink": "Trevor.jpg",
+            "firstName": "Trevor",
+            "lastName": "Xing-Xie",
             "grade": "12",
-            "hobbies": "Coding, Debate, Tennis, Piano, Movies/TV",
-            "csExperience": "Advanced in Python, HTML, CSS and proficient in Java, C++, Javascript, and Time Series Machine Learning. Stanford CS Summer Program, ML Research Paper on Predicing Flood Streamflow with Auto-Regressive Intergrated Moving Average Models; Enjoys Website Development and Artificial Intelligence; Passionate about service-oriented projects"
-            
+            "hobbies": "Soccer, Photo & Video Editing",
+            "csExperience": "Java (5 on AP CS A Exam), Python"
         },
         {
             "imageLink": "Baoren.jpg",
             "firstName": "Baoren",
             "lastName": "Liu",
             "grade": "11",
-            "hobbies": "Tennis, Piano and Video Games",
-            "csExperience": "Java, Python, HTML, JavaScript, C++, React and developing Android Apps."
+            "hobbies": "Tennis, Piano, Video Games, and Biking",
+            "csExperience": "Website development with HTML, JavaScript, CSS, ReactJS framework and Firebase. Made scripts using Python, developed Android Apps with Java. Familiar with C++ and also got a 5 on the AP CS A Exam"
         },
         {
             "imageLink": "David.jpg",
@@ -56,12 +55,13 @@
             "csExperience": "Java, Python, HTML and CSS"
         },
         {
-            "imageLink": "Trevor.jpg",
-            "firstName": "Trevor",
-            "lastName": "Xing-Xie",
+            "imageLink": "everest.jpg",
+            "firstName": "Everest",
+            "lastName": "Yang",
             "grade": "12",
-            "hobbies": "Soccer, Photo & Video Editing",
-            "csExperience": "Java (5 on AP CS A Exam), Python"
+            "hobbies": "Coding, Debate, Tennis, Piano, Movies/TV",
+            "csExperience": "Advanced in Python, HTML, CSS and proficient in Java, C++, Javascript, and Time Series Machine Learning. Stanford CS Summer Program, ML Research Paper on Predicing Flood Streamflow with Auto-Regressive Intergrated Moving Average Models; Enjoys Website Development and Artificial Intelligence; Passionate about service-oriented projects"
+            
         },
         {
             "imageLink": "Ellen.jpg",
