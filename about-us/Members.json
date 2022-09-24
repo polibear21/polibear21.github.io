@@ -138,8 +138,8 @@
             "firstName": "Kevin",
             "lastName": "Zhu",
             "grade": "10",
-            "hobbies": "CAD, 3D Printing, Video Games",
-            "csExperience": "Python"
+            "hobbies": "3D Printing, Soccer",
+            "csExperience": "Python, JavaScript for Discord bot dev"
         },
         {
             "imageLink": "AlexLau.png",
