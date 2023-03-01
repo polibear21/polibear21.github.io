@@ -14,7 +14,7 @@
         {
              "name": "Hotspots",
              "leads": ["Everest Yang"],
-             "members": ["Edward Zhu", "Joseph Jia", "Yuanheng Mao"] 
+             "members": ["Edward Zhu", "Yuanheng Mao"] 
         },
         {
              "name": "New Moon",
@@ -24,7 +24,7 @@
         {
              "name": "Subtitles",
              "leads": ["David Zhao", "Trevor Xing-Xie"],
-             "members": ["Alex Lau", "Eli Olcott", "Ethan Shao", "Irene Gao", "Neil Lin", "Jaden Leung", "Audi Lin", "Joseph Jia"] 
+             "members": ["Alex Lau", "Eli Olcott", "Ethan Shao", "Irene Gao", "Neil Lin", "Jaden Leung", "Audi Lin"] 
         }
     ],
     
@@ -165,14 +165,6 @@
              "grade": "12",
              "hobbies": "swimming, drawing, spending time outside",
              "csExperience": "Java, Python, R, C, C++"
-         },
-         {
-             "imageLink": "JosephJia.jpg",
-             "firstName": "Joseph",
-             "lastName": "Jia",
-             "grade": "12",
-             "hobbies": "Robotics, Baseball, Gaming",
-             "csExperience": "Python, Java, C++, Javascript, Published ML Research Paper to Journal of Student Research (worked with Professor Ramezani of UCLA), CMU CS Summer Program, 9 years of competitive robotics: FLL, FTC, and Vex (Reached States/Regionals in 8 of 9 years), coded AI Battleship and Tetris games, Hackathons, some competitive programming experience, some app development"
          },
          {
              "imageLink": "Yuanheng.jpg",
