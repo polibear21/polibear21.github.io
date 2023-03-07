@@ -27,6 +27,31 @@
 
     <!--		<link href = "css/flatlythemebootstrap.css" rel = "stylesheet" /> -->
 
+    <!-- styles and scripts for this page only -->
+    <style>
+        li {
+            font-size: 18px;
+        }
+    </style>
+    <script>
+        function resizeImage() {
+            var poster = document.getElementById("poster");
+            if (window.innerWidth < 992) {
+                poster.style.width = "100%";
+            } else {
+                poster.style.width = "60%";
+            }
+        }
+
+        window.addEventListener('resize', () => {
+            resizeImage()
+        }, true)
+
+        window.addEventListener('load', () => {
+            resizeImage()
+        })
+
+    </script>
 
 </head>
 
@@ -48,6 +73,7 @@
                             <div class="dropdown">
                                 <a onclick="dropdown()" class="dropbtn nav-link">Projects</a></button>
                                 <div id="myDropdown" class="dropdown-content">
+                                    <a href="chirp.html">ChiRP Project</a>
                                     <a href="harrington.html">Harrington PTA</a>
                                     <a href="cel.html">CEL Data Analysis</a>
                                     <a href="patriots.html">Patriots Day</a>
@@ -101,10 +127,11 @@
             </font>
             <hr class="specialdivider"
                 style="margin-bottom: 1.5rem; background-color:midnightblue; max-width: 50%; margin-top:0rem;" />
-            <div>
 
+        </div>
 
-
+        <div>
+            <div class="container">
                 <div class="row">
 
                     <div class="col-lg-12">
@@ -113,41 +140,53 @@
                             <u><br>Introduction</u>
                         </h3>
 
+                        <div class="column" id="poster" style="width: 60%; float:right; margin-left: 10px">
+                            <img src="assets/img/chirp/poster.png" style="width:100%; display: block; float:right">
+                        </div>
 
-                        <p class="mb-2" style="font-size: 20px;">
-                            Cary Library ChiRP (Children's Room Project) project is a competition for students (k-12) to
-                            make websites for the Library's children's and teens' space renovation project.
+                        <p class="mb-2" style="font-size: 18px;">
+                            In partnership with the Cary Library Foundation, the Lexington STEAM Youth Team is hosting
+                            an
+                            event where YOU have the chance to design a website for the Cary Library Renovation Project
+                            (ChiRP)! This event is beginner friendly. We welcome <span style="color:#006aff">all
+                                students
+                                grade 5-12</span>, even those who have zero experience designing websites.<br /><br />
+                            Experienced mentors and hands-on training for all-levels of webpage and graphic design will
+                            be
+                            available. We will teach students about web design, create a website for the ChiRP project,
+                            and
+                            recruit new members for the Lexington Youth STEAM team.<br /><br />
+                            This event is a great opportunity for students to learn new skills, meet other students with
+                            similar interests, and contribute to a meaningful community project!
                             <br><br>
-
                         </p>
+
                     </div>
 
                 </div>
-
-
-
+            </div>
+            <div class="container px-4 px-lg-5">
                 <div class="row">
 
                     <div class="col-lg-12">
 
                         <h3 class="h4 mb-2" style="font-size:30px; text-align: center;">
-                            <u><br>More details</u>
+                            <u><br>Requirements</u>
                         </h3>
 
+                        <ul>
+                            <li>Open to all students (<span style="color:#006aff">grades 5-12</span>)! </li>
+                            <li><span style="color:#006aff">Any level</span> of experience is welcome</li>
+                            <li>Some coding experience is encouraged for <span style="color:#006aff">high school</span>
+                                students.</li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMFQytgL12L7pVZ4OIm6Iz3F1N6nMLgMVKabfi3Us85vbyAQ/viewform"
+                                    target="_blank">Register here ($10 fee)</a></li>
+                        </ul>
 
-                        <p class="mb-2" style="font-size: 20px;">
-                            In this project, we planned on...
-
-                            <br><br>
-                        </p>
                     </div>
 
                 </div>
 
-                <div style="text-align: center">
-                    <img src="assets/img/hotspots/map.png"
-                        style="width:75%; display: block; margin-left: auto; margin-right: auto"><br>
-                </div>
 
                 <div class="row">
 
@@ -159,13 +198,14 @@
 
 
                         <h5 class="h5 mb-2" style="font-size:20px;">Saturday, March 18 from 10AM-4PM in the large
-                            meeting room at Cary Library.</h5>
+                            meeting room at Cary Library (1874 Massachusetts Ave, Lexington).</h5>
                         <ul>
                             <li>10 AM-12 PM: Guest speaker talks and tutorials for website design</li>
                             <li>12-12:30 PM: Forming teams</li>
                             <li>12:30-2:30 PM: Hatching the website & lunch</li>
-                            <li>2:30-3:30 PM: Website presentations</li>
-                            <li>3:30-4:00 PM: Committee Award ceremony</li>
+                            <li>2:30-3:30 PM: Design idea presentations (complete website submission is not required)
+                            </li>
+                            <li>3:30-4:00 PM: Award ceremony</li>
                         </ul>
 
                         <h3 class="h4 mb-2" style="font-size:30px; text-align: center;">
@@ -173,9 +213,13 @@
                         </h3>
 
                         <p class="mb-2" style="font-size: 18px;">
-                            Lunch and refreshments will be provided by the Cary Library Foundation.
-
+                            Please bring a fully charged laptop. Free lunch and refreshments will be provided by the
+                            Cary
+                            library Foundation!
                             <br><br>
+                            Contact us <a href="mailto:lyst.connect@gmail.com"
+                                target="_blank">lyst.connect@gmail.com</a> if
+                            you have any questions.
                         </p>
                     </div>
 
@@ -205,7 +249,8 @@
                     <b><span style="color:#0000ff">Invited Talk Chair</span>: <span style="color:#bf9000">Jerry
                             Xu</span></b> (work with Dr. Wei Ding and the Library Foundation to invite speakers)<br>
                     <b><span style="color:#0000ff">Evaluation Committee Co-Chairs</span>: <span
-                            style="color:#bf9000">Jerry Xu and Baoren Liu</span></b> (communicate with Dr. Wei Ding and
+                            style="color:#bf9000">Jerry
+                            Xu and Baoren Liu</span></b> (communicate with Dr. Wei Ding and
                     the Cary Library Foundation to set up the Evaluation Committee)<br>
                     <b><span style="color:#0000ff">Marketing Chair</span>: <span style="color:#bf9000">Ethan
                             Shao</span></b> (provide marketing services for the Lexington Youth Team on 3/18; engage in
@@ -219,7 +264,7 @@
 
         </div>
 
-        
+
 
     </section>
 
