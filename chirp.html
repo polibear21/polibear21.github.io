@@ -191,7 +191,7 @@
                               <div id="paypal-button-container"></div>
                             </div>
                           </div>
-                        <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+                        <script src="https://www.paypal.com/sdk/js?client-id=AfqfD4UMmLXv74Q1vtIqyv1eHmHi0b7afv0KeMKVT6Spfhfd2_dUoecm-bmbH-PsK3_sbCJbCkSnJ-xk&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
                         <script>
                           function initPayPalButton() {
                             paypal.Buttons({
@@ -205,7 +205,7 @@
                       
                               createOrder: function(data, actions) {
                                 return actions.order.create({
-                                  purchase_units: [{"amount":{"currency_code":"USD","value":10}}]
+                                  purchase_units: [{"description":"$10 Registration Fee for Cary Library Foundation Student Website Tutorial and Competition","amount":{"currency_code":"USD","value":10}}]
                                 });
                               },
                       
