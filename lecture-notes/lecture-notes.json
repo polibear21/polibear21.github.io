@@ -134,6 +134,27 @@
       "Presenter": "Trevor Xing-Xie",
       "Description": "Basics of Wordpress: Setup, Plugins, Pages and Shortcodes (Used in Patriots Day Project)",
       "Link": "https://docs.google.com/presentation/d/1XtxN4EF7yfmMOlZ5glcIpRc26gCGG4YG3PK842epeng/edit?usp=sharing"
+    },
+    {
+      "Date": "3/18/2023",
+      "Topic": "Beginner Web Development for 3/18 event",
+      "Presenter": "Jaden Leung, Ethan Shao, Kevin Zhu",
+      "Description": "Covers basic HTML and CSS",
+      "Link": "https://docs.google.com/presentation/d/1wCqSp7JL3_mpR9HC8k7OQbLxCyAKOx8LLfiGK0WRMYc/edit?usp=sharing"
+    },
+    {
+      "Date": "3/18/2023",
+      "Topic": "Intermediate Web Development for 3/18 event",
+      "Presenter": "Jaden Leung, Kevin Zhu, Baoren Liu",
+      "Description": "Covers HTML, CSS, Bootstrap, and GitHub in more depth",
+      "Link": "https://docs.google.com/presentation/d/1BHoh9rvYOXjB0TtUPmxdDB0Etvt8JURZqFrmKfVdkzI/edit?usp=sharing"
+    },
+    {
+      "Date": "3/18/2023",
+      "Topic": "Graphic Design for 3/18 event",
+      "Presenter": "Jaden Leung, Baoren Liu",
+      "Description": "Combining color theory, layout & composition to make pages visually pleasing",
+      "Link": "https://docs.google.com/presentation/d/1YRSP-ig-zObON-0ypy4wKvVftHRz0-7x8Q4vKklLPFQ/edit?usp=sharing"
     }
   ]
 }
