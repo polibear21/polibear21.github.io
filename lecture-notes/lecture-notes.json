@@ -160,8 +160,9 @@
       "Date": "3/18/2023",
       "Topic": "Docker and NodeJS setup",
       "Presenter": "Kathy Sui",
-      "Description": "<a href=\"https://youtu.be/bJGUZiW1iUI\">Setting up Docker and NodeJS</a>",
-      "Link": "https://docs.google.com/presentation/d/1X-U_B-8leIC9QEgnSLkgEEQhf8op0CLyg-GWwgo5hiE/edit?usp=sharing"
+      "Description": "Setting up Docker and NodeJS",
+      "Link": "https://docs.google.com/presentation/d/1X-U_B-8leIC9QEgnSLkgEEQhf8op0CLyg-GWwgo5hiE/edit?usp=sharing",
+      "Examples": ["https://youtu.be/bJGUZiW1iUI"]
     }
   ]
 }
