@@ -1,6 +1,5 @@
 {
-  "lectureNotes" : 
-  [
+  "lectureNotes": [
     {
       "Date": "1/30/2021",
       "Topic": "Python Topics to Learn",
@@ -35,7 +34,16 @@
       "Presenter": "Neil Lin",
       "Description": "List groups, dropdowns, collapse, carousel",
       "Link": "https://docs.google.com/presentation/d/1SxMO7d-S4iHqi015Z5QyY7myT8_b2IZ6A-gh2SQUuj4/edit?usp=sharing",
-      "Examples": ["https://neil-homework.trevor20cb.repl.co/", "https://ethan-shaonicvadico-homeworksiri.theoceanface.repl.co/"]
+      "Examples": [
+        {
+          "url": "https://neil-homework.trevor20cb.repl.co/",
+          "name": "Example"
+        },
+        {
+          "url": "https://ethan-shaonicvadico-homeworksiri.theoceanface.repl.co/",
+          "name": "Example"
+        }
+      ]
     },
     {
       "Date": "9/11/2021",
@@ -162,7 +170,19 @@
       "Presenter": "Kathy Sui",
       "Description": "Setting up Docker and NodeJS",
       "Link": "https://docs.google.com/presentation/d/1X-U_B-8leIC9QEgnSLkgEEQhf8op0CLyg-GWwgo5hiE/edit?usp=sharing",
-      "Examples": ["https://youtu.be/bJGUZiW1iUI"]
+      "Examples": [
+        { "url": "https://youtu.be/bJGUZiW1iUI", "name": "Video Lecture" }
+      ]
+    },
+    {
+      "Date": "3/25/2023",
+      "Topic": "NodeJS Website",
+      "Presenter": "Kathy Sui",
+      "Description": "Building a Basic Website in NodeJS",
+      "Link": "https://docs.google.com/presentation/d/1-SRmIFMBhgN-4ozo-2dphFpVPT55O1Kj7B48ucRFAM0/edit?usp=sharing",
+      "Examples": [
+        { "url": "https://youtu.be/rkWdxHxHGbM", "name": "Video Lecture" }
+      ]
     }
   ]
 }
