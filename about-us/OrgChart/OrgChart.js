@@ -1,6 +1,6 @@
 function SetOrgChart() {
-    $.getJSON("about-us/Members.json", function(jsonResponse) {
-        var teams = jsonResponse.teams.map(function(team) {
+    $.getJSON("about-us/Members.json", (jsonResponse) => {
+        var teams = jsonResponse.teams.map((team) => {
             var leadHTML = '';
             
             for (var i = 0; i < team.leads.length; i++) {
@@ -17,36 +17,38 @@ function SetOrgChart() {
             var person = jsonResponse.people[i];
             var fullName = person.firstName + " " + person.lastName;
             if (!isLead(fullName, jsonResponse.teams)) {
-              var team = jsonResponse.teams.find(team => team.members.includes(fullName));
-            if (team === undefined && fullName != "Wei Ding")
-                team = 'Wei Ding';
-            else if(fullName === "Wei Ding") 
-                team = '';
-            else 
-                team =  team.name;
-            people.push([{'v':fullName, 'f': '<img src="./images/' + person.imageLink + '" class="avatar"></img>' + '<div>' + fullName + '</div>'}, team, ''])  
+                var team = jsonResponse.teams.find(team => team.members.includes(fullName));
+                if (team === undefined && fullName != "Wei Ding") {
+                    team = 'Wei Ding';
+                } else if (fullName === "Wei Ding") {
+                    team = '';
+                }
+                else {
+                    team = team.name;
+                }
+                people.push([{'v':fullName, 'f': '<img src="./images/' + person.imageLink + '" class="avatar"></img>' + '<div>' + fullName + '</div>'}, team, '']) 
             }
         }
         console.log(people);
 
-    google.charts.load('current', {packages:["orgchart"]});
-      google.charts.setOnLoadCallback(drawChart);
+        google.charts.load('current', {packages:["orgchart"]});
+        google.charts.setOnLoadCallback(drawChart);
 
-      function drawChart() {
-        var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Name');
-        data.addColumn('string', 'Manager');
-        data.addColumn('string', 'ToolTip');
+        function drawChart() {
+            var data = new google.visualization.DataTable();
+            data.addColumn('string', 'Name');
+            data.addColumn('string', 'Manager');
+            data.addColumn('string', 'ToolTip');
 
-        // For each orgchart box, provide the name, manager, and tooltip to show.
-        data.addRows(teams);
-        data.addRows(people);
+            // For each orgchart box, provide the name, manager, and tooltip to show.
+            data.addRows(teams);
+            data.addRows(people);
 
-        // Create the chart.
-        var chart = new google.visualization.OrgChart(document.getElementById('orgchart'));
-        // Draw the chart, setting the allowHtml option to true for the tooltips.
-        chart.draw(data, {'allowHtml':true, size: 'small'});
-      }
+            // Create the chart.
+            var chart = new google.visualization.OrgChart(document.getElementById('orgchart'));
+            // Draw the chart, setting the allowHtml option to true for the tooltips.
+            chart.draw(data, {'allowHtml':true, size: 'small'});
+        }
     })
 }
 
@@ -58,8 +60,7 @@ function isLead(name, teams) {
 
     return false;
 }
-  
+
 $(document).ready(function () {
     SetOrgChart();
 })
-  

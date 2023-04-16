@@ -34,7 +34,7 @@
       "Presenter": "Neil Lin",
       "Description": "List groups, dropdowns, collapse, carousel",
       "Link": "https://docs.google.com/presentation/d/1SxMO7d-S4iHqi015Z5QyY7myT8_b2IZ6A-gh2SQUuj4/edit?usp=sharing",
-      "Examples": [
+      "Resources": [
         {
           "url": "https://neil-homework.trevor20cb.repl.co/",
           "name": "Example"
@@ -170,7 +170,7 @@
       "Presenter": "Kathy Sui",
       "Description": "Setting up Docker and NodeJS",
       "Link": "https://docs.google.com/presentation/d/1X-U_B-8leIC9QEgnSLkgEEQhf8op0CLyg-GWwgo5hiE/edit?usp=sharing",
-      "Examples": [
+      "Resources": [
         { "url": "https://youtu.be/bJGUZiW1iUI", "name": "Video Lecture" }
       ]
     },
@@ -180,7 +180,7 @@
       "Presenter": "Kathy Sui",
       "Description": "Building a Basic Website in NodeJS",
       "Link": "https://docs.google.com/presentation/d/1-SRmIFMBhgN-4ozo-2dphFpVPT55O1Kj7B48ucRFAM0/edit?usp=sharing",
-      "Examples": [
+      "Resources": [
         { "url": "https://youtu.be/rkWdxHxHGbM", "name": "Video Lecture" }
       ]
     }
