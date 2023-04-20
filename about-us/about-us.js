@@ -1,18 +1,10 @@
 function renderPeople() {
-  $.getJSON("about-us/Members.json", function (jsonResponse) {
-    $.get("about-us/founding.hbs", function (template) {
-      var peopleTemplate = Handlebars.compile(template);
-      $("#founding").append(peopleTemplate(jsonResponse));
-    });
-
-    $.get("about-us/leader.hbs", function (template) {
-      var peopleTemplate = Handlebars.compile(template);
-      $("#leader").append(peopleTemplate(jsonResponse));
-    });
-
+  $.getJSON("about-us/Members.json", function (members) {
     $.get("about-us/member.hbs", function (template) {
-      var peopleTemplate = Handlebars.compile(template);
-      $("#member").append(peopleTemplate(jsonResponse));
+      const peopleTemplate = Handlebars.compile(template);
+      $("#founding").append(peopleTemplate(members.founding));
+      $("#leader").append(peopleTemplate(members.leader));
+      $("#member").append(peopleTemplate(members.member));
     });
   });
 }
