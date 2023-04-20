@@ -13,27 +13,29 @@ function SetOrgChart() {
         })
 
         const members = [];
-        for (const person of people) {
-            let fullName = person.firstName + " " + person.lastName;
-            if (!isLead(fullName, data.teams)) {
-                let team = data.teams.find(team => team.members.includes(fullName));
-                if (team === undefined && fullName != "Wei Ding") {
-                    team = 'Wei Ding';
-                } else if (fullName === "Wei Ding") {
-                    team = '';
-                } else {
-                    team = team.name;
-                }
+        for (const team of data.teams) {
+            for (const teamMember of team.members) {
+                let member = people.find(person => person.firstName + " " + person.lastName === teamMember.trim())
+                // https://stackoverflow.com/a/26586606/14095682
+                // trim() member name to still be able to get image link
                 members.push([
                     {
-                        'v': fullName,
-                        'f': '<img src="./images/' + person.imageLink + '" class="avatar"></img>' + '<div>' + fullName + '</div>'
+                        'v': teamMember,
+                        'f': `<img src="./images/${member.imageLink}" class="avatar"></img><div>${teamMember}</div>`
                     },
-                    team,
+                    team.name,
                     '',
                 ]);
             }
         }
+        members.push([
+            {
+                'v': "Wei Ding",
+                'f': '<img src="./images/Wei.jpg" class="avatar"></img><div>Wei Ding</div>'
+            },
+            "",
+            '',
+        ])
 
         google.charts.load('current', { packages: ["orgchart"] });
         google.charts.setOnLoadCallback(drawChart);
