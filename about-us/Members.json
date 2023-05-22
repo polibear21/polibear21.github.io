@@ -148,6 +148,14 @@
             "grade": "9",
             "hobbies": "Robotics, Biking, Chess",
             "csExperience": "Python, HTML, CSS"
+        },
+        {
+            "imageLink": "AlexLau.png",
+            "firstName": "Alex",
+            "lastName": "Lau",
+            "grade": "11",
+            "hobbies": "biking, volleyball, tennis, badminton, video games, hiking, canoeing, camping, backpacking",
+            "csExperience": "Python and Java"
         }
     ],
     "member": [
@@ -174,14 +182,6 @@
             "grade": "10",
             "hobbies": "3D Printing, Soccer",
             "csExperience": "Python, JavaScript for web and Discord bot dev"
-        },
-        {
-            "imageLink": "AlexLau.png",
-            "firstName": "Alex",
-            "lastName": "Lau",
-            "grade": "11",
-            "hobbies": "biking, volleyball, tennis, badminton, video games, hiking, canoeing, camping, backpacking",
-            "csExperience": "Python and Java"
         },
         {
             "imageLink": "Edward.jpg",
