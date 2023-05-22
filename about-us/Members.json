@@ -50,6 +50,16 @@
             ]
         },
         {
+            "name": "Volleyball",
+            "leads": [
+                "Alex Lau",
+                "William Zhang",
+            ],
+            "members": [
+                "Arthur Lin"  
+            ]    
+        },
+        {
             "name": "Subtitles",
             "leads": [
                 "David Zhao",
@@ -180,7 +190,7 @@
             "firstName": "Alex",
             "lastName": "Lau",
             "grade": "11",
-            "hobbies": "biking, running, tennis, soccer, video games, badminton, hiking, canoeing, camping",
+            "hobbies": "biking, volleyball, tennis, badminton, video games, hiking, canoeing, camping, backpacking",
             "csExperience": "Python and Java"
         },
         {
