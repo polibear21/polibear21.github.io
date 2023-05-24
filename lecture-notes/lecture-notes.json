@@ -183,6 +183,14 @@
       "Resources": [
         { "url": "https://youtu.be/rkWdxHxHGbM", "name": "Video Lecture" }
       ]
+    },
+    {
+      "Date": "4/22/2023",
+      "Topic": "API",
+      "Presenter": "Kathy Sui",
+      "Description": "Using APIs in NodeJS",
+      "Link": "https://docs.google.com/presentation/d/1fdWMo9AU7LeSj3AUbtxauLHXtZ_SvSttZbMwlVHg2Dg/edit?usp=sharing",
+      "Resources": []
     }
   ]
 }
