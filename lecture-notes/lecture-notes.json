@@ -191,6 +191,22 @@
       "Description": "Using APIs in NodeJS",
       "Link": "https://docs.google.com/presentation/d/1fdWMo9AU7LeSj3AUbtxauLHXtZ_SvSttZbMwlVHg2Dg/edit?usp=sharing",
       "Resources": []
+    },
+    {
+      "Date": "6/3/2023",
+      "Topic": "ExpressJS",
+      "Presenter": "Kathy Sui",
+      "Description": "Making a backend server using ExpressJS framework",
+      "Link": "https://docs.google.com/presentation/d/1wPlthcKdGSlgooHHgAOWRrTAiCRkd4EQ7SWQiZMZ00k/edit?usp=sharing",
+      "Resources": []
+    },
+    {
+      "Date": "6/17/2023",
+      "Topic": "ReactJS",
+      "Presenter": "Kathy Sui",
+      "Description": "Using ReactJS for front-end",
+      "Link": "https://docs.google.com/presentation/d/1vPEBHd0vna7THaxuQDAh5wKXxIAp3JD-nb8AUfMss_c/edit?usp=sharing",
+      "Resources": []
     }
   ]
 }
