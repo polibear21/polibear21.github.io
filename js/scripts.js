@@ -72,8 +72,9 @@ window.addEventListener('DOMContentLoaded', (event) => {
         document.querySelectorAll('.on-page')
     );
     responsiveNavItems.map((responsiveNavItem) => {
-        responsiveNavItem.addEventListener('click', () => {
+        responsiveNavItem.addEventListener('click', (e) => {
             if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                e.preventDefault();
                 navbarToggler.click();
             }
         });
