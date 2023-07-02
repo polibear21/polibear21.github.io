@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title style="padding-top: 0px">Cary Library Foundation Student Website Tutorial And Competition</title>
+    <title style="padding-top: 0px">Website Construction</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico?v=2" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap Icons-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Google fonts-->
@@ -91,28 +91,32 @@
                         <li class="nav-item"><a class="nav-link" href="activity.html">Team Activity</a></li>
                         <li class="nav-item"><a class="nav-link" href="learning-center.html">Learning Center</a></li>
 
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <!-- breadcrumbs-->
     <section class="breadcrumb-section">
-        <ul class="breadcrumb" style="margin-bottom: 0">
+        <ul class="breadcrumb" style="margin-bottom: 0px;">
             <li><a href="index.html">Home</a></li>
             <li>Cary Library Children's Room Transformation</li>
         </ul>
     </section>
 
     <section class="page-section" style="padding-top: 0rem" id="services">
-        <div style="text-align: center; background-color: #1a75bc;">
-            <div class="container px-4 px-lg-5" style="padding: 25px"><img src="assets/img/chirp/logo.jpg"
-                    style="width:75%; display: block; margin: 0 auto">
-            </div>
-        </div>
+
         </div><br><br>
         <div class="container px-4 px-lg-5 align-self-baseline align-items-center justify-content-center text-center">
 
-                <h2 class="text-center mt-0" style="font-size: 2rem"><b>Cary Library Foundation Student Website Tutorial And Competition</b></h2>
-                <h2 class="text-center mt-0" style="font-size: 1.5rem"><b>In collaboration with Cary Library Foundation</b></h2>
-            <hr class="specialdivider"
-                style="margin-bottom: 1.5rem; background-color:midnightblue; max-width: 50%; margin-top:0rem;" />
-                <a class="btn btn-primary btn-xl" href="fundraisingwebsitechirp.html">The ChiRP Website Construction Project</a>
-        </div>
+          <h2 class="text-center mt-0" style="font-size: 2rem"><b>Cary Library Foundation Student Website Tutorial And Competition</b></h2>
+          <h2 class="text-center mt-0" style="font-size: 1.5rem"><b>In collaboration with Cary Library Foundation</b></h2>
+      <hr class="specialdivider"
+          style="margin-bottom: 1.5rem; background-color:midnightblue; max-width: 50%; margin-top:0rem;" />
+          <a class="btn btn-primary btn-xl" href="fundraisingwebsitechirp.html">The ChiRP Website Construction Project</a>
+  </div>
 
         
 
@@ -147,373 +151,375 @@
                             similar interests, and contribute to a meaningful community project!
                             <br><br>
                         </p>
-                    </div>
-                </div>
-            </div>
-            <div class="container px-4 px-lg-5">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h3 class="h4 mb-2" style="font-size:30px; text-align: center;">
-                            <br>Requirements
-                        </h3>
-                        <hr class="divider" />
 
-                        <ul>
-                            <li>Open to all students (<span style="color:#006aff">grades 5-12</span>)! </li>
-                            <li><span style="color:#006aff">Any level</span> of experience is welcome</li>
-                            <li>Some coding experience is encouraged for <span style="color:#006aff">high school</span>
-                                students.</li>
-                            <li>Be prepared to answer these questionnaire when you arrive: your grade, whether you came with a team, any experience with HTML or web design, do you classify as beginner/intermediate.</li>
-                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMFQytgL12L7pVZ4OIm6Iz3F1N6nMLgMVKabfi3Us85vbyAQ/viewform"
-                                    target="_blank">Register here</a> (currently sold out. Any new registrations will be added into the waitlist.)</li>
-                            <li>Pay $10 fee below if you registered before it's sold out (Venmo encouraged. PayPal is second. Debit/Credit card least preferred)</li>
-                        </ul>
-
-                        <div id="smart-button-container">
-                            <div style="text-align: center;">
-                              <div id="paypal-button-container"></div>
-                            </div>
-                          </div>
-                        <script src="https://www.paypal.com/sdk/js?client-id=AfqfD4UMmLXv74Q1vtIqyv1eHmHi0b7afv0KeMKVT6Spfhfd2_dUoecm-bmbH-PsK3_sbCJbCkSnJ-xk&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-                        <script>
-                          function initPayPalButton() {
-                            paypal.Buttons({
-                              style: {
-                                shape: 'rect',
-                                color: 'gold',
-                                layout: 'vertical',
-                                label: 'paypal',
-                                
-                              },
-                      
-                              createOrder: function(data, actions) {
-                                return actions.order.create({
-                                  purchase_units: [{"description":"$10 Registration Fee for Cary Library Foundation Student Website Tutorial and Competition","amount":{"currency_code":"USD","value":10}}]
-                                });
-                              },
-                      
-                              onApprove: function(data, actions) {
-                                return actions.order.capture().then(function(orderData) {
-                                  
-                                  // Full available details
-                                  console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-                      
-                                  // Show a success message within this page, e.g.
-                                  const element = document.getElementById('paypal-button-container');
-                                  element.innerHTML = '';
-                                  element.innerHTML = '<h3>Thank you for your payment!</h3>';
-                      
-                                  // Or go to another URL:  actions.redirect('thank_you.html');
-                                  
-                                });
-                              },
-                      
-                              onError: function(err) {
-                                console.log(err);
-                              }
-                            }).render('#paypal-button-container');
-                          }
-                          initPayPalButton();
-                        </script>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h3 class="h4 mb-2" style="font-size:30px; text-align: center;">
-                            <br>Timeline
-                        </h3>
-                        <hr class="divider" />
-
-                        <h5 class="h5 mb-2" style="font-size:20px;">Saturday, March 18 from 10AM-4PM in the large
-                            meeting room at Cary Library (1874 Massachusetts Ave, Lexington).</h5>
-                        <ul>
-                            <li>9:45 AM: Registration open</li>
-                            <li>10:00-10:30 AM: Opening remarks and invited talk</li>
-                            <li>10:30-11:30 AM: Beginner (by Ethan in large meeting room) and intermediate (by Baoren+Kevin in learning center) development tutorial</li>
-                            <li>11:30-12:00 PM: Graphic design tutorial by Jaden in large meeting room</li>
-                            <li>12:00-12:30 PM: Lunch, games, and forming teams</li>
-                            <li>12:30-12:45 PM: ChiRP design requirements presentation by Mary Ellen Ringo and QnA</li>
-                            <li>12:45-2:15 PM: Teams making website</li>
-                            <li>2:15-3:45 PM: Presentation in learning center. Each team has 1 minute to set up, 3 minutes to present, 3 minutes to evaluate, and 1 minute to leave the room. </li>
-                            <li>3:45-4:00 PM: Award ceremony and photo of winning teams, in large meeting room.</li>
-                        </ul>
-
-
-                        <h3 class="text-center h4 mb-2" style="font-size: 30px">
-                            <br>Resources
-                        </h3>
-                        <hr class="divider" />
-
-                        <div class="mb-2" style="font-size: 18px">
-                            Here are the slides we will be teaching. Please use it for your convenience.
-                            <ul>
-                                <li><a href="https://docs.google.com/presentation/d/1wCqSp7JL3_mpR9HC8k7OQbLxCyAKOx8LLfiGK0WRMYc/edit?usp=sharing" target="_blank">Beginner Web Development</a></li>
-                                <li><a href="https://docs.google.com/presentation/d/1BHoh9rvYOXjB0TtUPmxdDB0Etvt8JURZqFrmKfVdkzI/edit?usp=sharing" target="_blank">Intermediate Web Development</a></li>
-                                <li><a href="https://docs.google.com/presentation/d/1YRSP-ig-zObON-0ypy4wKvVftHRz0-7x8Q4vKklLPFQ/edit?usp=sharing" target="_blank">Graphic Design</a></li>
-                                <li><a href="https://drive.google.com/file/d/1-IgbX8z_dw4xQ2B05Rpvms4DTA7Vmybt/view?usp=sharing" target="_blank">Outline for ChiRP Web Pages</a></li>
-                            </ul>
-                        </div>
-
-                        <h3 class="h4 mb-2" style="font-size:30px;text-align: center;">
-                            <br>Awards
-                        </h3>
-                        <hr class="divider" />
-                        <!--Winners-->
                         
-                        <div class="mb-2" style="font-size: 18px;">
-                            There are three awards for each age-group attendees (younger students and older students):
-                            <ul>
-                                <li>Best Website Idea</li>
-                                <li>Best Overall Website Design</li>
-                                <li>Best Technical Excellence</li>
-                            </ul>
-                        </div>
-                        <h4>Younger Students (Grades 4-7)</h4>
-                        <div class="accordion" id="accordionPanelsStayOpenExample">
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                                  Best Website Idea
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body">
-                                  Team 2
-                                    <br><br>
-                                    Ruby Trinh, 5th
-                                    <br>
-                                    Stephen Yang, 6th
-                                    <br>
-                                    William Yang, 7th
-                                    <br>
-                                    Jiayuan Wu, 5th  
-                                    <br>
-                                    Sreshta E, 6th
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                  Best Overall Website Design
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="accordion-body">
-                                    Team 3  
-                                    <br><br>
-                                    Harry Tan, 5th  
-                                    <br>  
-                                    Cynthia Gu, 7th
-                                    <br>
-                                    Warren Nie, 7th
-                                    <br> 
-                                    Leo Chen, 5th
-                                    <br>
-                                    Julie Wei, 6th
-                                </div>
-                              </div>
-                            </div>
-                            <div class="accordion-item">
-                              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                  Best Technical Exellence
-                                </button>
-                              </h2>
-                              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                                <div class="accordion-body">
-                                    Team 4
-                                    <br><br>
-                                    Danial Liu, 5th
-                                    <br>
-                                    Zhengjia Yang, 6th
-                                    <br>
-                                    Hannah Changlee, 7th
-                                    <br>
-                                    Jiawei Liu, 6th 
-                                    <br>
-                                    Zara Semy, 5th
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <br>
-                        <h4>Older Students (Grades 8-11)</h4>
-                            <div class="accordion" id="accordionPanelsStayOpenExample">
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                                      Best Website Idea
-                                    </button>
-                                  </h2>
-                                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
-                                    <div class="accordion-body">
-                                      Team 2
-                                        <br><br>
-                                        Christina Xiao, 8th
-                                        <br>
-                                        Parth Kole, 9th
-                                        <br>
-                                        Bowen Xiao, 10th
-                                        <br>
-                                        Andrew Wu, 8th  
-                                        <br>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="panelsStayOpen-headingFive">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                                      Best Overall Website Design
-                                    </button>
-                                  </h2>
-                                  <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
-                                    <div class="accordion-body">
-                                        Team 1 
-                                        <br><br>
-                                        Lucas Lin, 8th 
-                                        <br>  
-                                        Aditya Phadnis, 8th
-                                        <br>
-                                        Alyssa Gong, 8th 
-                                        <br> 
-                                        Angela Zhao, 9th
-                                        <br>
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="accordion-item">
-                                  <h2 class="accordion-header" id="panelsStayOpen-headingSix">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
-                                      Best Technical Exellence
-                                    </button>
-                                  </h2>
-                                  <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
-                                    <div class="accordion-body">
-                                        Team 3
-                                        <br><br>
-                                        Ziran Wang, 8th
-                                        <br>
-                                        Rithvik Ponniah, 8th
-                                        <br>
-                                        Alan Lu, 10th
-                                        <br>
-                                        Grace Li, 11th
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                        <p class="mb-2" style="font-size: 18px;">
-                            <br> <br>
-                            <u>Judges:</u><br>
-                            Ann Boese, Cary Library Foundation Board<br>
-                            Mary Ellen Ringo, Executive Director, Cary Library Foundation<br>
-                            Wei Ding, Cary Library Foundation Board<br>
-                            Liz O'Neil, Cary Library Foundation Board<br>
-                            Koren Stembridge, Director, Cary Library<br>
-                            Hua Wang, Co-President of Chinese American Association of Lexington (CAAL)<br>
-                            Weidong Wang, CAAL Executive Committee<br>
-                            Lily Zeng, ChiRP Fundraising Committee Co-Chair and Cary Library Communications Committee
-                        </p>
 
-                        <h3 class="h4 mb-2" style="font-size:30px;text-align: center;">
-                            <br>Other info
-                        </h3>
-                        <hr class="divider" />
-
-                        <p class="mb-2" style="font-size: 18px;">
-                            Please bring a fully charged laptop. Free lunch and refreshments will be provided by the
-                            Cary
-                            library Foundation!
-                            <br><br>
-                            Contact us <a href="mailto:lyst.connect@gmail.com"
-                                target="_blank">lyst.connect@gmail.com</a> if
-                            you have any questions.
-                        </p>
                     </div>
+                    <div class="container px-4 px-lg-5">
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <h3 class="h4 mb-2" style="font-size:30px; text-align: center;">
+                                  <br>Requirements
+                              </h3>
+                              <hr class="divider" />
+      
+                              <ul>
+                                  <li>Open to all students (<span style="color:#006aff">grades 5-12</span>)! </li>
+                                  <li><span style="color:#006aff">Any level</span> of experience is welcome</li>
+                                  <li>Some coding experience is encouraged for <span style="color:#006aff">high school</span>
+                                      students.</li>
+                                  <li>Be prepared to answer these questionnaire when you arrive: your grade, whether you came with a team, any experience with HTML or web design, do you classify as beginner/intermediate.</li>
+                                  <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfMFQytgL12L7pVZ4OIm6Iz3F1N6nMLgMVKabfi3Us85vbyAQ/viewform"
+                                          target="_blank">Register here</a> (currently sold out. Any new registrations will be added into the waitlist.)</li>
+                                  <li>Pay $10 fee below if you registered before it's sold out (Venmo encouraged. PayPal is second. Debit/Credit card least preferred)</li>
+                              </ul>
+      
+                              <div id="smart-button-container">
+                                  <div style="text-align: center;">
+                                    <div id="paypal-button-container"></div>
+                                  </div>
+                                </div>
+                              <script src="https://www.paypal.com/sdk/js?client-id=AfqfD4UMmLXv74Q1vtIqyv1eHmHi0b7afv0KeMKVT6Spfhfd2_dUoecm-bmbH-PsK3_sbCJbCkSnJ-xk&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
+                              <script>
+                                function initPayPalButton() {
+                                  paypal.Buttons({
+                                    style: {
+                                      shape: 'rect',
+                                      color: 'gold',
+                                      layout: 'vertical',
+                                      label: 'paypal',
+                                      
+                                    },
+                            
+                                    createOrder: function(data, actions) {
+                                      return actions.order.create({
+                                        purchase_units: [{"description":"$10 Registration Fee for Cary Library Foundation Student Website Tutorial and Competition","amount":{"currency_code":"USD","value":10}}]
+                                      });
+                                    },
+                            
+                                    onApprove: function(data, actions) {
+                                      return actions.order.capture().then(function(orderData) {
+                                        
+                                        // Full available details
+                                        console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                            
+                                        // Show a success message within this page, e.g.
+                                        const element = document.getElementById('paypal-button-container');
+                                        element.innerHTML = '';
+                                        element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                            
+                                        // Or go to another URL:  actions.redirect('thank_you.html');
+                                        
+                                      });
+                                    },
+                            
+                                    onError: function(err) {
+                                      console.log(err);
+                                    }
+                                  }).render('#paypal-button-container');
+                                }
+                                initPayPalButton();
+                              </script>
+                          </div>
+                      </div>
+      
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <h3 class="h4 mb-2" style="font-size:30px; text-align: center;">
+                                  <br>Timeline
+                              </h3>
+                              <hr class="divider" />
+      
+                              <h5 class="h5 mb-2" style="font-size:20px;">Saturday, March 18 from 10AM-4PM in the large
+                                  meeting room at Cary Library (1874 Massachusetts Ave, Lexington).</h5>
+                              <ul>
+                                  <li>9:45 AM: Registration open</li>
+                                  <li>10:00-10:30 AM: Opening remarks and invited talk</li>
+                                  <li>10:30-11:30 AM: Beginner (by Ethan in large meeting room) and intermediate (by Baoren+Kevin in learning center) development tutorial</li>
+                                  <li>11:30-12:00 PM: Graphic design tutorial by Jaden in large meeting room</li>
+                                  <li>12:00-12:30 PM: Lunch, games, and forming teams</li>
+                                  <li>12:30-12:45 PM: ChiRP design requirements presentation by Mary Ellen Ringo and QnA</li>
+                                  <li>12:45-2:15 PM: Teams making website</li>
+                                  <li>2:15-3:45 PM: Presentation in learning center. Each team has 1 minute to set up, 3 minutes to present, 3 minutes to evaluate, and 1 minute to leave the room. </li>
+                                  <li>3:45-4:00 PM: Award ceremony and photo of winning teams, in large meeting room.</li>
+                              </ul>
+      
+      
+                              <h3 class="text-center h4 mb-2" style="font-size: 30px">
+                                  <br>Resources
+                              </h3>
+                              <hr class="divider" />
+      
+                              <div class="mb-2" style="font-size: 18px">
+                                  Here are the slides we will be teaching. Please use it for your convenience.
+                                  <ul>
+                                      <li><a href="https://docs.google.com/presentation/d/1wCqSp7JL3_mpR9HC8k7OQbLxCyAKOx8LLfiGK0WRMYc/edit?usp=sharing" target="_blank">Beginner Web Development</a></li>
+                                      <li><a href="https://docs.google.com/presentation/d/1BHoh9rvYOXjB0TtUPmxdDB0Etvt8JURZqFrmKfVdkzI/edit?usp=sharing" target="_blank">Intermediate Web Development</a></li>
+                                      <li><a href="https://docs.google.com/presentation/d/1YRSP-ig-zObON-0ypy4wKvVftHRz0-7x8Q4vKklLPFQ/edit?usp=sharing" target="_blank">Graphic Design</a></li>
+                                      <li><a href="https://drive.google.com/file/d/1-IgbX8z_dw4xQ2B05Rpvms4DTA7Vmybt/view?usp=sharing" target="_blank">Outline for ChiRP Web Pages</a></li>
+                                  </ul>
+                              </div>
+      
+                              <h3 class="h4 mb-2" style="font-size:30px;text-align: center;">
+                                  <br>Awards
+                              </h3>
+                              <hr class="divider" />
+                              <!--Winners-->
+                              
+                              <div class="mb-2" style="font-size: 18px;">
+                                  There are three awards for each age-group attendees (younger students and older students):
+                                  <ul>
+                                      <li>Best Website Idea</li>
+                                      <li>Best Overall Website Design</li>
+                                      <li>Best Technical Excellence</li>
+                                  </ul>
+                              </div>
+                              <h4>Younger Students (Grades 4-7)</h4>
+                              <div class="accordion" id="accordionPanelsStayOpenExample">
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                        Best Website Idea
+                                      </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                      <div class="accordion-body">
+                                        Team 2
+                                          <br><br>
+                                          Ruby Trinh, 5th
+                                          <br>
+                                          Stephen Yang, 6th
+                                          <br>
+                                          William Yang, 7th
+                                          <br>
+                                          Jiayuan Wu, 5th  
+                                          <br>
+                                          Sreshta E, 6th
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                        Best Overall Website Design
+                                      </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                      <div class="accordion-body">
+                                          Team 3  
+                                          <br><br>
+                                          Harry Tan, 5th  
+                                          <br>  
+                                          Cynthia Gu, 7th
+                                          <br>
+                                          Warren Nie, 7th
+                                          <br> 
+                                          Leo Chen, 5th
+                                          <br>
+                                          Julie Wei, 6th
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                        Best Technical Exellence
+                                      </button>
+                                    </h2>
+                                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                      <div class="accordion-body">
+                                          Team 4
+                                          <br><br>
+                                          Danial Liu, 5th
+                                          <br>
+                                          Zhengjia Yang, 6th
+                                          <br>
+                                          Hannah Changlee, 7th
+                                          <br>
+                                          Jiawei Liu, 6th 
+                                          <br>
+                                          Zara Semy, 5th
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <br>
+                              <h4>Older Students (Grades 8-11)</h4>
+                                  <div class="accordion" id="accordionPanelsStayOpenExample">
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                            Best Website Idea
+                                          </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+                                          <div class="accordion-body">
+                                            Team 2
+                                              <br><br>
+                                              Christina Xiao, 8th
+                                              <br>
+                                              Parth Kole, 9th
+                                              <br>
+                                              Bowen Xiao, 10th
+                                              <br>
+                                              Andrew Wu, 8th  
+                                              <br>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                            Best Overall Website Design
+                                          </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                                          <div class="accordion-body">
+                                              Team 1 
+                                              <br><br>
+                                              Lucas Lin, 8th 
+                                              <br>  
+                                              Aditya Phadnis, 8th
+                                              <br>
+                                              Alyssa Gong, 8th 
+                                              <br> 
+                                              Angela Zhao, 9th
+                                              <br>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="accordion-item">
+                                        <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                            Best Technical Exellence
+                                          </button>
+                                        </h2>
+                                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                                          <div class="accordion-body">
+                                              Team 3
+                                              <br><br>
+                                              Ziran Wang, 8th
+                                              <br>
+                                              Rithvik Ponniah, 8th
+                                              <br>
+                                              Alan Lu, 10th
+                                              <br>
+                                              Grace Li, 11th
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                              <p class="mb-2" style="font-size: 18px;">
+                                  <br> <br>
+                                  <u>Judges:</u><br>
+                                  Ann Boese, Cary Library Foundation Board<br>
+                                  Mary Ellen Ringo, Executive Director, Cary Library Foundation<br>
+                                  Wei Ding, Cary Library Foundation Board<br>
+                                  Liz O'Neil, Cary Library Foundation Board<br>
+                                  Koren Stembridge, Director, Cary Library<br>
+                                  Hua Wang, Co-President of Chinese American Association of Lexington (CAAL)<br>
+                                  Weidong Wang, CAAL Executive Committee<br>
+                                  Lily Zeng, ChiRP Fundraising Committee Co-Chair and Cary Library Communications Committee
+                              </p>
+      
+                              <h3 class="h4 mb-2" style="font-size:30px;text-align: center;">
+                                  <br>Other info
+                              </h3>
+                              <hr class="divider" />
+      
+                              <p class="mb-2" style="font-size: 18px;">
+                                  Please bring a fully charged laptop. Free lunch and refreshments will be provided by the
+                                  Cary
+                                  library Foundation!
+                                  <br><br>
+                                  Contact us <a href="mailto:lyst.connect@gmail.com"
+                                      target="_blank">lyst.connect@gmail.com</a> if
+                                  you have any questions.
+                              </p>
+                          </div>
+      
+                      </div>
+      
+                      <h2 style="text-align: center; margin-top: 100px">Event Organization Committee</h2>
+                      <hr class="divider" />
+                      <p class="h5 mb-2" style="font-size: 18px; text-align: left; line-height:1.5">
+                          <b><span style="color:#0000ff">General Chair:</span> <span style="color:#bf9000">Irene Gao</span></b> (coordinate and manage the entire event on 3/18)<br>
+                          <b><span style="color:#0000ff">Registration Co-Chairs</span>: <span style="color:#bf9000">Ivy Tang
+                                  and Yuanheng Mao</span></b> (manage event registrations)<br>
+                                  &emsp;- Team member: Sophia Zhou<br>
+                          <b><span style="color:#0000ff">Local Chair</span>: <span style="color:#bf9000">Alex Lau</span></b>
+                                  (work with the Library and Library Foundation on meeting room setup, food deliveries, etc.)<br>
+                                  &emsp;- Team member: Arthur Lin and Andrew Gu<br>
+                          <b><span style="color:#0000ff">Competition Co-Chairs</span>: <span style="color:#bf9000">Ellen Wang
+                                  and Trevor Xing-Xie</span></b> (organize the 12-grade members of Lexington Youth STEAM team
+                          and provide mentoring and coaching services during the competition hours on 3/18)<br>
+                                  &emsp;- Team member: Justin Wang<br>
+                          <b><span style="color:#0000ff">Publicity Chair</span>: <span style="color:#bf9000">Ivy
+                                  Tang</span></b> (work with Dr. Wei Ding and the Library Foundation to distribute the event
+                          information to the local communities)<br>
+                                  &emsp;- Team member: Claire Liu, Lillian Yang, Justin Wang<br>
+                          <b><span style="color:#0000ff">Web Co-Chairs</span>: <span style="color:#bf9000">Baoren Liu and David
+                                  Zhao</span></b> (Design the 3/18 event page at the Lexington Youth STEAM
+                          team website)<br>
+                                  &emsp;- Team member: Justin Wang<br>
+                          <b><span style="color:#0000ff">Tutorial Chair</span>: <span style="color:#bf9000">Jaden
+                                  Leung</span></b> (work with the Lexington Youth STEAM team to design the training sessions
+                          in the morning of 3/18)<br>
+                                  &emsp;- Team member: Joley Leung<br>
+                          <b><span style="color:#0000ff">Invited Talk Chair</span>: <span style="color:#bf9000">Jerry
+                                  Xu</span></b> (work with Dr. Wei Ding and the Library Foundation to invite speakers)<br>
+                          <b><span style="color:#0000ff">Evaluation Committee Co-Chairs</span>: <span
+                                  style="color:#bf9000">Jerry Xu and Baoren Liu</span></b> (communicate with Dr. Wei Ding and
+                          the Cary Library Foundation to set up the Evaluation Committee)<br>
+                          <b><span style="color:#0000ff">Marketing Chair</span>: <span style="color:#bf9000">Ethan
+                                  Shao</span></b> (provide marketing services for the Lexington Youth Team on 3/18; engage in
+                          fundraising, and promote the team’s image and public standing)<br>
+                          <br><br>
+                      </p>
+                      <h2 style="text-align: center; margin-top: 100px">Sponsors</h2>
+                      <hr class="divider" />
+                      <div class="row" style="justify-content: center;">
+                          <img src="assets/img/chirp/CAALlogo.png" style="width:33%"/>
+                          <img src="assets/img/chirp/sponsor1.png" style="width:33%"/>
+                          <img src="assets/img/chirp/dunkin.png" style="width:30%"/>
+                      </div>
+      
+                      <br><br>
+      
+                      <div class="row" style="justify-content: center;">
+                          <img src="assets/img/chirp/bagels.png" style="width: 20%"/>
+                          <img src="assets/img/chirp/pigs.png" style="width: 33%"/>
+                      </div>
+      
+                      <br><br>
+      
+                      <div class="row" style="justify-content: center;">
+                          <img src="assets/img/chirp/foundation.png" style="width: 21%"/>
+                          <img src="assets/img/chirp/cary.jpg" style="width: 21%"/>
+                      </div>
+                      <br><br>
+                  </div>
+              </div>
+          </section>
+      
+          <footer class="bg-light py-5">
+              <div class="container px-4 px-lg-5">
+                  <div class="small text-center text-muted">Copyright &copy; 2022 - Lexington Youth STEAM Team</div>
+              </div>
+          </footer>
+      
+          <script src="components/nav-component.min.js" type="text/javascript"></script>
+          <!-- Bootstrap core JS-->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+          <!-- SimpleLightbox plugin JS-->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+          <!-- Core theme JS-->
+          <script src="js/scripts.js"></script>
+          <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+          <!-- * *                               SB Forms JS                               * *-->
+          <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+          <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+          <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+      </body>
 
-                </div>
-
-                <h2 style="text-align: center; margin-top: 100px">Event Organization Committee</h2>
-                <hr class="divider" />
-                <p class="h5 mb-2" style="font-size: 18px; text-align: left; line-height:1.5">
-                    <b><span style="color:#0000ff">General Chair:</span> <span style="color:#bf9000">Irene Gao</span></b> (coordinate and manage the entire event on 3/18)<br>
-                    <b><span style="color:#0000ff">Registration Co-Chairs</span>: <span style="color:#bf9000">Ivy Tang
-                            and Yuanheng Mao</span></b> (manage event registrations)<br>
-                            &emsp;- Team member: Sophia Zhou<br>
-                    <b><span style="color:#0000ff">Local Chair</span>: <span style="color:#bf9000">Alex Lau</span></b>
-                            (work with the Library and Library Foundation on meeting room setup, food deliveries, etc.)<br>
-                            &emsp;- Team member: Arthur Lin and Andrew Gu<br>
-                    <b><span style="color:#0000ff">Competition Co-Chairs</span>: <span style="color:#bf9000">Ellen Wang
-                            and Trevor Xing-Xie</span></b> (organize the 12-grade members of Lexington Youth STEAM team
-                    and provide mentoring and coaching services during the competition hours on 3/18)<br>
-                            &emsp;- Team member: Justin Wang<br>
-                    <b><span style="color:#0000ff">Publicity Chair</span>: <span style="color:#bf9000">Ivy
-                            Tang</span></b> (work with Dr. Wei Ding and the Library Foundation to distribute the event
-                    information to the local communities)<br>
-                            &emsp;- Team member: Claire Liu, Lillian Yang, Justin Wang<br>
-                    <b><span style="color:#0000ff">Web Co-Chairs</span>: <span style="color:#bf9000">Baoren Liu and David
-                            Zhao</span></b> (Design the 3/18 event page at the Lexington Youth STEAM
-                    team website)<br>
-                            &emsp;- Team member: Justin Wang<br>
-                    <b><span style="color:#0000ff">Tutorial Chair</span>: <span style="color:#bf9000">Jaden
-                            Leung</span></b> (work with the Lexington Youth STEAM team to design the training sessions
-                    in the morning of 3/18)<br>
-                            &emsp;- Team member: Joley Leung<br>
-                    <b><span style="color:#0000ff">Invited Talk Chair</span>: <span style="color:#bf9000">Jerry
-                            Xu</span></b> (work with Dr. Wei Ding and the Library Foundation to invite speakers)<br>
-                    <b><span style="color:#0000ff">Evaluation Committee Co-Chairs</span>: <span
-                            style="color:#bf9000">Jerry Xu and Baoren Liu</span></b> (communicate with Dr. Wei Ding and
-                    the Cary Library Foundation to set up the Evaluation Committee)<br>
-                    <b><span style="color:#0000ff">Marketing Chair</span>: <span style="color:#bf9000">Ethan
-                            Shao</span></b> (provide marketing services for the Lexington Youth Team on 3/18; engage in
-                    fundraising, and promote the team’s image and public standing)<br>
-                    <br><br>
-                </p>
-                <h2 style="text-align: center; margin-top: 100px">Sponsors</h2>
-                <hr class="divider" />
-                <div class="row" style="justify-content: center;">
-                    <img src="assets/img/chirp/CAALlogo.png" style="width:33%"/>
-                    <img src="assets/img/chirp/sponsor1.png" style="width:33%"/>
-                    <img src="assets/img/chirp/dunkin.png" style="width:30%"/>
-                </div>
-
-                <br><br>
-
-                <div class="row" style="justify-content: center;">
-                    <img src="assets/img/chirp/bagels.png" style="width: 20%"/>
-                    <img src="assets/img/chirp/pigs.png" style="width: 33%"/>
-                </div>
-
-                <br><br>
-
-                <div class="row" style="justify-content: center;">
-                    <img src="assets/img/chirp/foundation.png" style="width: 21%"/>
-                    <img src="assets/img/chirp/cary.jpg" style="width: 21%"/>
-                </div>
-                <br><br>
-            </div>
-        </div>
-    </section>
-
-    <footer class="bg-light py-5">
-        <div class="container px-4 px-lg-5">
-            <div class="small text-center text-muted">Copyright &copy; 2022 - Lexington Youth STEAM Team</div>
-        </div>
-    </footer>
-
-    <script src="components/nav-component.min.js" type="text/javascript"></script>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!-- SimpleLightbox plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-</body>
 </html>
