@@ -2,7 +2,7 @@ function populateRows() {
   $.getJSON("lecture-notes/lecture-notes.json", (jsonResponse) => {
     // Sort the lecture notes by date
     jsonResponse.lectureNotes.sort((a, b) => {
-      return new Date(a.Date) - new Date(b.Date);
+      return -(new Date(a.Date) - new Date(b.Date));
     });
 
     $.get("lecture-notes/lecture-notes.hbs", (template) => {

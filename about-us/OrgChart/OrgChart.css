@@ -1,17 +1,14 @@
 .leader {
-    font-weight: bold;
-    color:royalblue;
     display: inline-block;
 }
 
 .leaders {
-    width: 175px;
+    width: 100px;
 }
 
 .avatar {
-    width: 35px;
-    height: 50px; 
-    border-radius: 25%;
+    height: 50px;
+    border-radius: 6px;
 }
 
 .teamName {
@@ -21,4 +18,5 @@
 
 #orgchart {
     padding-bottom: 50px;
+    font-size: 24px;
 }
