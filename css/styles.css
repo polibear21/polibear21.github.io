@@ -10956,6 +10956,10 @@ hr.specialdivider {
   border-radius: 8px;
   height: 100%;
 }
+.teamimage.advisor {
+  width: 100%;
+  height: auto;
+}
 
 .column {
   float: left;
