@@ -1,6 +1,7 @@
 // <title> of html files
 const projectPages = [
     "Cary Library Foundation Student Website Tutorial And Competition",
+    "Fundraising Website Construction",
     "Harrington PTA Website",
     "CEL Data Analysis",
     "Patriots’ Day Virtual Event: Miles and Smiles",
@@ -40,7 +41,7 @@ class Nav extends HTMLElement {
                             <li class="nav-item"><a class="nav-link ${document.title === "About Us" ? "active on-page" : ""}" href="aboutus.html">About Us</a></li>
                             <li class="nav-item">
                                 <div class="dropdown">
-                                    <a onclick="dropdown()" class="dropbtn nav-link ${projectPages.includes(document.title) ? "active on-page" : ""}">Projects</a>
+                                    <a onclick="dropdown()" class="dropbtn nav-link ${projectPages.includes(document.title) ? "active" : ""}">Projects</a>
                                     <div id="myDropdown" class="dropdown-content">
                                         <a href="chirp.html">ChiRP Project</a>
                                         <a href="harrington.html">Harrington PTA</a>
@@ -59,8 +60,8 @@ class Nav extends HTMLElement {
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item"><a class="nav-link ${document.title === "Team Activities" ? "active" : ""}" href="activity.html">Team Activity</a></li>
-                            <li class="nav-item"><a class="nav-link ${document.title === "Learning Center" ? "active" : ""}" href="learning-center.html">Learning Center</a></li>
+                            <li class="nav-item"><a class="nav-link ${document.title === "Team Activities" ? "active on-page" : ""}" href="activity.html">Team Activity</a></li>
+                            <li class="nav-item"><a class="nav-link ${document.title === "Learning Center" ? "active on-page" : ""}" href="learning-center.html">Learning Center</a></li>
                         </ul>
                     </div>
                 </div>
