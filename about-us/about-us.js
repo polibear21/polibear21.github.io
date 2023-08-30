@@ -14,14 +14,23 @@ $(document).ready(function () {
 
   $("#memberdirectorybtn").focus();
   $("#orgchart").hide();
+  $("#groupphoto").hide();
 
   $("#memberdirectorybtn").click(function () {
     $("#memberdirectory").show();
     $("#orgchart").hide();
+    $("#groupphoto").hide();
   });
 
   $("#orgchartbtn").click(function () {
     $("#memberdirectory").hide();
+    $("#groupphoto").hide();
     $("#orgchart").show();
   });
+
+  $("#groupphotobtn").click(()=>{
+    $("#groupphoto").show();
+    $("#memberdirectory").hide();
+    $("#orgchart").hide();
+  })
 });
