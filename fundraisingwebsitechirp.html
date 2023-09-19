@@ -26,31 +26,21 @@
 
     <!--		<link href = "css/flatlythemebootstrap.css" rel = "stylesheet" /> -->
 
-    <!-- styles and scripts for this page only -->
     <style>
         li {
             font-size: 18px;
         }
-    </style>
-    <script>
-        function resizeImage() {
-            var poster = document.getElementById("poster");
-            if (window.innerWidth < 992) {
-                poster.style.width = "100%";
-            } else {
-                poster.style.width = "60%";
-            }
+
+        #poster {
+            width: 60%;
         }
 
-        window.addEventListener('resize', () => {
-            resizeImage()
-        }, true)
-
-        window.addEventListener('load', () => {
-            resizeImage()
-        })
-
-    </script>
+        @media (width <= 992px) {
+            #poster {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body id="page-top">
@@ -77,7 +67,7 @@
                     </h3>
                     <hr class="divider" />
 
-                    <div class="column" id="poster" style="width: 60%; float:right; margin-left: 10px">
+                    <div class="column" id="poster" style="float: right; margin-left: 10px">
                         <img src="assets/img/chirp/poster.png" style="width:100%; display: block; float:right">
                     </div>
 
