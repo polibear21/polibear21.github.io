@@ -108,6 +108,14 @@
             "grade": "11",
             "hobbies": "biking, volleyball, tennis, badminton, video games, hiking, canoeing, camping, backpacking",
             "csExperience": "Python and Java"
+        },
+        {
+            "imageLink": "IreneGao.png",
+            "firstName": "Irene",
+            "lastName": "Gao",
+            "grade": "11",
+            "hobbies": "I enjoy reading novels, drawing digitally, watching ballet, doing crew and learning languages in my spare time.",
+            "csExperience": "I am currently the Gold level for the USACO competition and I am comfortable to program in Java, Python and C++, some web development."
         }
     ],
     "member": [
@@ -134,14 +142,6 @@
             "grade": "9",
             "hobbies": "Soccer, Computer Science, Tennis",
             "csExperience": "Processing, Arduino, Java, Python, basics of HTML and Javascript"
-        },
-        {
-            "imageLink": "IreneGao.png",
-            "firstName": "Irene",
-            "lastName": "Gao",
-            "grade": "11",
-            "hobbies": "I enjoy reading novels, drawing digitally, watching ballet, doing crew and learning languages in my spare time.",
-            "csExperience": "I am currently the Gold level for the USACO competition and I am comfortable to program in Java, Python and C++, some web development."
         }
     ]
 }
