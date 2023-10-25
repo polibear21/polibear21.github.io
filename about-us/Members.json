@@ -78,34 +78,18 @@
     ],
     "leader": [
         {
-            "imageLink": "WilliamZhang.jpg",
-            "firstName": "William",
-            "lastName": "Zhang",
-            "grade": "10",
-            "hobbies": "I typically play the violin, do olympiad chemistry (USNCO), competitive programming (USACO, Codeforces, ACSL), run cross country/track, journal, coach science olympiad and build Android apps in my free time as fun hobbies.",
-            "csExperience": "Java (Swing, JavaFX, Spring), C++ (standard library), Python (numpy and pandas libraries)"
-        },
-        {
             "imageLink": "IvyTang.png",
             "firstName": "Ivy",
             "lastName": "Tang",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "Reading, hanging out with friends, and tutoring",
             "csExperience": "Java and Python"
-        },
-        {
-            "imageLink": "EthanShao.jpg",
-            "firstName": "Ethan",
-            "lastName": "Shao",
-            "grade": "10",
-            "hobbies": "Robotics, Biking, Chess",
-            "csExperience": "Python, HTML, CSS"
         },
         {
             "imageLink": "AlexLau.png",
             "firstName": "Alex",
             "lastName": "Lau",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "biking, volleyball, tennis, badminton, video games, hiking, canoeing, camping, backpacking",
             "csExperience": "Python and Java"
         },
@@ -113,33 +97,49 @@
             "imageLink": "IreneGao.png",
             "firstName": "Irene",
             "lastName": "Gao",
-            "grade": "11",
+            "grade": "12",
             "hobbies": "I enjoy reading novels, drawing digitally, watching ballet, doing crew and learning languages in my spare time.",
             "csExperience": "I am currently the Gold level for the USACO competition and I am comfortable to program in Java, Python and C++, some web development."
-        }
-    ],
-    "member": [
+        },
         {
-            "imageLink": "JerryXu.jpg",
-            "firstName": "Jerry",
-            "lastName": "Xu",
-            "grade": "9",
-            "hobbies": "MTG, ping-pong",
-            "csExperience": "Java, Python, HTML, CSS"
+            "imageLink": "WilliamZhang.jpg",
+            "firstName": "William",
+            "lastName": "Zhang",
+            "grade": "11",
+            "hobbies": "I typically play the violin, do olympiad chemistry (USNCO), competitive programming (USACO, Codeforces, ACSL), run cross country/track, journal, coach science olympiad and build Android apps in my free time as fun hobbies.",
+            "csExperience": "Java (Swing, JavaFX, Spring), C++ (standard library), Python (numpy and pandas libraries)"
+        },
+        {
+            "imageLink": "EthanShao.jpg",
+            "firstName": "Ethan",
+            "lastName": "Shao",
+            "grade": "11",
+            "hobbies": "Robotics, Biking, Chess",
+            "csExperience": "Python, HTML, CSS"
         },
         {
             "imageLink": "KevinZhu.png",
             "firstName": "Kevin",
             "lastName": "Zhu",
-            "grade": "10",
+            "grade": "11",
             "hobbies": "3D Printing, Soccer",
             "csExperience": "Python, JavaScript for web and Discord bot dev"
         },
         {
+            "imageLink": "JerryXu.jpg",
+            "firstName": "Jerry",
+            "lastName": "Xu",
+            "grade": "10",
+            "hobbies": "MTG, ping-pong",
+            "csExperience": "Java, Python, HTML, CSS"
+        }
+    ],
+    "member": [
+        {
             "imageLink": "Yuanheng.jpg",
             "firstName": "Yuanheng",
             "lastName": "Mao",
-            "grade": "9",
+            "grade": "10",
             "hobbies": "Soccer, Computer Science, Tennis",
             "csExperience": "Processing, Arduino, Java, Python, basics of HTML and Javascript"
         }
