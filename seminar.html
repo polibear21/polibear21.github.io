@@ -39,8 +39,11 @@
     </style>
     <script>
         function toggleText(textId) {
-      var hiddenText = document.getElementById(textId);
-      hiddenText.style.display = (hiddenText.style.display === 'none') ? 'block' : 'none';
+        var hiddenText = document.getElementById(textId);
+      hiddenText.style.display = (hiddenText.style.display === 'none' || hiddenText.style.display === '') ? 'block' : 'none';
+      if (hiddenText.style.display === 'none') {
+        event.preventDefault();
+      }
     }
     </script>
 </head>
