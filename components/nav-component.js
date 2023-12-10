@@ -17,7 +17,8 @@ const projectPages = [
     "Lunar Arts Website Restoration Project",
     "Volleyball Website",
     "Lexington Observer",
-    "LHS Senior Seminar 2023"
+    "LHS Senior Seminar 2023",
+	"Lexington Lyceum"
 ];
 
 const homepage = "Lexington Youth STEAM Team";
@@ -63,6 +64,7 @@ class Nav extends HTMLElement {
                                         <a href="volleyball.html">Volleyball Website</a>
                                         <a href="lexObserver.html">Lexington Observer</a> 
                                         <a href="seminar.html">Senior Seminar</a>
+										<a href="lexingtonLyceum.html">Lexington Lyceum Project</a>
                                     </div>
                                 </div>
                             </li>
