@@ -118,12 +118,12 @@
             "csExperience": "Python, HTML, CSS"
         },
         {
-            "imageLink": "KevinZhu.png",
+            "imageLink": "KevinZhu.jpg",
             "firstName": "Kevin",
             "lastName": "Zhu",
             "grade": "11",
             "hobbies": "3D Printing, Soccer",
-            "csExperience": "Python, JavaScript for web and Discord bot dev"
+            "csExperience": "JavaScript/TypeScript for web dev, C++ for competitive programming"
         },
         {
             "imageLink": "JerryXu.jpg",
