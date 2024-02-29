@@ -132,9 +132,7 @@
             "grade": "10",
             "hobbies": "MTG, ping-pong",
             "csExperience": "Java, Python, HTML, CSS"
-        }
-    ],
-    "member": [
+        },
         {
             "imageLink": "Yuanheng.jpg",
             "firstName": "Yuanheng",
@@ -142,7 +140,9 @@
             "grade": "10",
             "hobbies": "Soccer, Computer Science, Tennis",
             "csExperience": "Processing, Arduino, Java, Python, basics of HTML and Javascript"
-        },
+        }
+    ],
+    "member": [
         {
             "imageLink": "Lucas.jpg",
             "firstName": "Lucas",
