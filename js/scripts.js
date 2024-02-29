@@ -1,57 +1,57 @@
 /*!
-* Start Bootstrap - Creative v7.0.3 (https://startbootstrap.com/theme/creative)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
-*/
+ * Start Bootstrap - Creative v7.0.3 (https://startbootstrap.com/theme/creative)
+ * Copyright 2013-2021 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
+ */
 //
 // Scripts
-// 
+//
 
 function dropdown() {
-    document.getElementById("myDropdown").classList.add("show");
+    document.getElementById('myDropdown').classList.add('show');
 }
-  
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function(event) {
+
+// Close the dropdown if the user clicks outside of it
+window.addEventListener('click', (event) => {
     if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
+        var dropdowns = document.getElementsByClassName('dropdown-content');
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+            }
         }
-      }
     }
-  }
+});
 
-window.homepagecheck = function(){ //if we are on the homepage aka index.html
-	var check = false;
+window.homepagecheck = function () {
+    // if we are on the homepage aka index.html
+    var check = false;
 
-	if(window.location.pathname.includes("index.html")){  //the pathname should be changed
-		check = true;
-	}
-	return check;
-}
+    if (window.location.pathname.includes('index.html')) {
+        // the pathname should be changed
+        check = true;
+    }
+    return check;
+};
 
-window.addEventListener('DOMContentLoaded', event => {
-
+window.addEventListener('DOMContentLoaded', (event) => {
     // Navbar shrink function
     var navbarShrink = function () {
-		
         const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
             return;
         }
-        if (window.scrollY < 590 && window.homepagecheck()) { //change this to change when the nav bar changes color
-            navbarCollapsible.classList.remove('navbar-shrink')
+        if (window.scrollY < 590 && window.homepagecheck()) {
+            // change this to change when the nav bar changes color
+            navbarCollapsible.classList.remove('navbar-shrink');
         } else {
-            navbarCollapsible.classList.add('navbar-shrink')
+            navbarCollapsible.classList.add('navbar-shrink');
         }
-
     };
 
-    // Shrink the navbar 
+    // Shrink the navbar
     navbarShrink();
 
     // Shrink the navbar when page is scrolled
@@ -64,16 +64,17 @@ window.addEventListener('DOMContentLoaded', event => {
             target: '#mainNav',
             offset: 74,
         });
-    };
+    }
 
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
-        document.querySelectorAll('#navbarResponsive .nav-link')
+        document.querySelectorAll('.on-page')
     );
-    responsiveNavItems.map(function (responsiveNavItem) {
-        responsiveNavItem.addEventListener('click', () => {
+    responsiveNavItems.map((responsiveNavItem) => {
+        responsiveNavItem.addEventListener('click', (e) => {
             if (window.getComputedStyle(navbarToggler).display !== 'none') {
+                e.preventDefault();
                 navbarToggler.click();
             }
         });
@@ -81,7 +82,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Activate SimpleLightbox plugin for portfolio items
     new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
+        elements: '#portfolio a.portfolio-box',
     });
-
 });
