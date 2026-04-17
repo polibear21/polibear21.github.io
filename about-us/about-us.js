@@ -1,39 +1,62 @@
 function renderPeople() {
-    $.getJSON("about-us/Members.json", function(jsonResponse) {
-      // Sort the people by last name.
-      // Commented out to display the people by original order
-      // jsonResponse.people.sort(function(a,b) {
-      //   return a.lastName.localeCompare(b.lastName);
-      // });
-  
-      jsonResponse.people = jsonResponse.people.filter(person => person.firstName + " " + person.lastName !== "Wei Ding");
+  $.getJSON("about-us/Members.json", function (members) {
+    $.get("about-us/member.hbs", function (template) {
+      const peopleTemplate = Handlebars.compile(template);
+      $("#leader").append(peopleTemplate(members.leader));
+      $("#member").append(peopleTemplate(members.member));
+    });
+  });
+}
 
-      $.get("about-us/about-us.hbs", function(template) {
-        // Use the handlebars template to generate the HTML
-        // from people's information.
-        var peopleTemplate = Handlebars.compile(template);
-        $("#us").append(peopleTemplate(jsonResponse));
-      })
-    })
-  }
-  
-  $(document).ready(function () {
-      renderPeople();
-      
-      $("#memberdirectorybtn").focus();
-      $("#orgchart").hide();
+$(document).ready(function () {
+  renderPeople();
 
-      $("#memberdirectorybtn").click(function() {
-        $("#memberdirectory").show();
-        $("#orgchart").hide();
-      });
+  $("#memberdirectorybtn").focus();
+  $("#orgchart").hide();
+  $("#groupphoto").hide();
+  $("#Awards").hide();
+  $("#resources").hide();
 
-      $("#orgchartbtn").click(function() {
-        $("#memberdirectory").hide();
-        $("#orgchart").show();
-      });
- 
+  $("#memberdirectorybtn").click(function () {
+    $("#memberdirectory").show();
+    $("#orgchart").hide();
+    $("#groupphoto").hide();
+    $("#Awards").hide();
+    $("#resources").hide();
+
+  });
+
+  $("#orgchartbtn").click(function () {
+    $("#memberdirectory").hide();
+    $("#groupphoto").hide();
+    $("#orgchart").show();
+    $("#Awards").hide();
+    $("#resources").hide();
+
+  });
+
+  $("#groupphotobtn").click(()=>{
+    $("#groupphoto").show();
+    $("#memberdirectory").hide();
+    $("#orgchart").hide();
+    $("#Awards").hide();
+    $("#resources").hide();
+
   })
+  $("#awardsbtn").click(()=>{
+    $("#groupphoto").hide();
+    $("#memberdirectory").hide();
+    $("#orgchart").hide();
+    $("#Awards").show();
+    $("#resources").hide();
 
+  })
+  $("#resourcesbtn").click(()=>{
+    $("#groupphoto").hide();
+    $("#memberdirectory").hide();
+    $("#orgchart").hide();
+    $("#Awards").hide();
+    $("#resources").show();
 
-  
+  })
+});

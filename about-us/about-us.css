@@ -6,3 +6,11 @@
 .viewmode button {
     width: 200px;
 }
+
+.word {
+    text-align:left;margin-left:20%; margin-right:10%;
+}
+td {
+    padding:20px;
+}
+

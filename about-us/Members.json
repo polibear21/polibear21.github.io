@@ -1,242 +1,265 @@
 {
-   "teams":
-   [
-       {
-           "name": "Lexington Heroes",
-           "leads": ["Baoren Liu", "Cassidy Xu"],
-           "members": ["Jerry Xu", "Edward Zhu", "Ellen Wang", "Irene Gao", "Ashley Zhang"] 
-       },
-       {
+    "teams": [
+        {
+            "name": "Lexington Heroes",
+            "leads": [
+                "Baoren Liu",
+                "Cassidy Xu",
+                "Jerry Xu"
+            ],
+            "members": [
+                "Edward Zhu",
+                "Ellen Wang",
+                "Irene Gao",
+                "Ashley Zhang"
+            ]
+        },
+        {
             "name": "Helpful Hands",
-            "leads": ["Ellen Wang"],
-            "members": ["Eli Olcott", "Irene Gao", "Yuanheng Mao", "Ashley Zhang", "Frank Xia"] 
-       },
-       {
+            "leads": [
+                "Ellen Wang"
+            ],
+            "members": [
+                "Eli Olcott",
+                "Irene Gao ",
+                "Yuanheng Mao",
+                "Ashley Zhang "
+            ]
+        },
+        {
             "name": "Hotspots",
-            "leads": ["Gabriel Sui", "Everest Yang"],
-            "members": ["Edward Zhu", "Joseph Jia", "Yuanheng Mao"] 
-       },
-       {
+            "leads": [
+                "Everest Yang"
+            ],
+            "members": [
+                "Edward Zhu ",
+                "Yuanheng Mao "
+            ]
+        },
+        {
             "name": "New Moon",
-            "leads": ["William Zhang", "Ivy Tang", "Ethan Shao", "Trevor Xing-Xie"],
-            "members": ["Kevin Zhu", "Alex Lau", "Katerina Lung", "Albert Lin"] 
-       },
-       {
+            "leads": [
+                "William Zhang",
+                "Ivy Tang",
+                "Ethan Shao",
+                "Trevor Xing-Xie"
+            ],
+            "members": [
+                "Kevin Zhu",
+                "Alex Lau"
+            ]
+        },
+        {
             "name": "Subtitles",
-            "leads": ["David Zhao", "Trevor Xing-Xie"],
-            "members": ["Alex Lau", "Eli Olcott", "Ethan Shao", "Irene Gao", "Neil Lin", "Jaden Leung", "Audi Lin", "Joseph Jia"] 
-       }
-   ],
-   
-    "people":
-    [
-        {
-            "imageLink": "Wei.jpg",
-            "firstName": "Wei",
-            "lastName": "Ding",
-            "grade": "",
-            "hobbies": "",
-            "csExperience": ""
-        },
-        {
-            "imageLink": "Trevor.jpg",
-            "firstName": "Trevor",
-            "lastName": "Xing-Xie",
-            "grade": "11",
-            "hobbies": "Soccer, Photo & Video Editing",
-            "csExperience": "Java (5 on AP CS A Exam), Python"
-        },
-        {
-            "imageLink": "David.jpg",
-            "firstName": "David",
-            "lastName": "Zhao",
-            "grade": "11",
-            "hobbies": "Music, Volleyball",
-            "csExperience": "Java, Python, HTML and CSS"
-        },
-        {
-            "imageLink": "Baoren.jpg",
-            "firstName": "Baoren",
-            "lastName": "Liu",
-            "grade": "10",
-            "hobbies": "Tennis, Piano and Video GamesTennis, Piano and Video Games",
-            "csExperience": "Java, Python, HTML, JavaScript, C++, React and developing Android Apps."
-        },
-        {
-            "imageLink": "everest.jpg",
-            "firstName": "Everest",
-            "lastName": "Yang",
-            "grade": "11th",
-            "hobbies": "Watching Movies/TV, playing tennis, spending time with friends and family",
-            "csExperience": "HTML, CSS, JavaScript, Python, C++, Java"
-        },
-        {
-            "imageLink": "Ellen.jpg",
-            "firstName": "Ellen",
-            "lastName": "Wang",
-            "grade": "11",
-            "hobbies": "Enjoy fencing, writing for the Lexington High School Newspaper, sewing, and mentoring young children in STEM fields.",
-            "csExperience": "Python, Javascript and C++. Intern for Boston Public Schools on data evaluation and management projects. Intern for digital consumer behavior research."
-        },
-        {
-            "imageLink": "Gabriel.jpg",
-            "firstName": "Gabriel",
-            "lastName": "Sui",
-            "grade": "12",
-            "hobbies": "Playing piano and tennis",
-            "csExperience": "USACO gold medalist, TA / intern experience for many years, 5 on AP comp sci exam"
-        },
-        {
-            "imageLink": "Albert.jpg",
-            "firstName": "Albert",
-            "lastName": "Lin",
-            "grade": "12",
-            "hobbies": "Football, Video Games",
-            "csExperience": "Java, Python, C++, Ruby, HTML/CSS, JS, vex robotics, TA/intern experience, AP CS A (5)"
-        },
-        {
-            "imageLink": "Frank.jpg",
-            "firstName": "Frank",
-            "lastName": "Xia",
-            "grade": "12",
-            "hobbies": "Reading, Video Games, Civil Engineering",
-            "csExperience": "Java, Python, C++"
-        },
-        {
-            "imageLink": "CassidyXu.png",
-            "firstName": "Cassidy",
-            "lastName": "Xu",
-            "grade": "11",
-            "hobbies": "Coding, reading, hiking",
-            "csExperience": "Java, Python, HTML, CSS"
-        },
+            "leads": [
+                "David Zhao",
+                "Trevor Xing-Xie"
+            ],
+            "members": [
+                "Alex Lau ",
+                "Eli Olcott ",
+                "Ethan Shao",
+                "Irene Gao  ",
+                "Neil Lin",
+                "Jaden Leung",
+                "Audi Lin"
+            ]
+        }
+    ],
+    "leader": [
         {
             "imageLink": "WilliamZhang.jpg",
             "firstName": "William",
             "lastName": "Zhang",
-            "grade": "9",
-            "hobbies": "I typically play the violin, do olympiad chemistry (USNCO), competitive programming (USACO, Codeforces, ACSL), run cross country/track, journal, coach science olympiad and build Android apps in my free time as fun hobbies.",
+            "grade": "12",
+            "hobbies": "I'm a senior at Lexington High School who specializes in mobile app development using React Native, and machine learning with TensorFlow. In my free time, I enjoy running track and cross-country, playing the violin, and journaling.",
             "csExperience": "Java (Swing, JavaFX, Spring), C++ (standard library), Python (numpy and pandas libraries)"
-        },
-        {
-            "imageLink": "JerryXu.jpg",
-            "firstName": "Jerry",
-            "lastName": "Xu",
-            "grade": "8",
-            "hobbies": "MTG, ping-pong",
-            "csExperience": "Java, Python, HTML, CSS"
-        },
-        {
-            "imageLink": "Audi.png",
-            "firstName": "Audi",
-            "lastName": "Lin",
-            "grade": "11",
-            "hobbies": "Swimming, Robotics, Reading Webtoons :D",
-            "csExperience": "C++, Java, Python"
-        },
-        {
-            "imageLink": "KevinZhu.png",
-            "firstName": "Kevin",
-            "lastName": "Zhu",
-            "grade": "9",
-            "hobbies": "CAD, 3D Printing, Video Games",
-            "csExperience": "Python"
-        },
-        {
-            "imageLink": "AlexLau.png",
-            "firstName": "Alex",
-            "lastName": "Lau",
-            "grade": "10th",
-            "hobbies": "biking, running, tennis, soccer, video games, badminton, hiking, canoeing, camping",
-            "csExperience": "python and java"
-        },
-        {
-            "imageLink": "Edward.jpg",
-            "firstName": "Edward",
-            "lastName": "Zhu",
-            "grade": "11",
-            "hobbies": "Running Track, Reading, Solving Rubik's Cubes",
-            "csExperience": "Java (5 on AP Comp Sci A Exam), C++, Python"
-        },
-        {
-            "imageLink": "Jaden.jpg",
-            "firstName": "Jaden",
-            "lastName": "Leung",
-            "grade": "11",
-            "hobbies": "Rubik's Cube, Video Games, Hiking, Biking, Tutoring",
-            "csExperience": "Java, C++, HTML/CSS, 5 on AP CS Exam"
-        },
-        {
-            "imageLink": "Ashley.jpg",
-            "firstName": "Ashley",
-            "lastName": "Zhang",
-            "grade": "11",
-            "hobbies": "swimming, drawing",
-            "csExperience": "C++, R, learning Java"
-        },
-        {
-            "imageLink": "IvyTang.png",
-            "firstName": "Ivy",
-            "lastName": "Tang",
-            "grade": "10",
-            "hobbies": "Reading, hanging out with friends, and tutoring",
-            "csExperience": "Java and Python"
-        },
-        {
-            "imageLink": "JosephJia.jpg",
-            "firstName": "Joseph",
-            "lastName": "Jia",
-            "grade": "11",
-            "hobbies": "Robotics, Baseball, Gaming",
-            "csExperience": "Python, Java, C++, Javascript, Published ML Research Paper to Journal of Student Research (worked with Professor Ramezani of UCLA), CMU CS Summer Program, 9 years of competitive robotics: FLL, FTC, and Vex (Reached States/Regionals in 8 of 9 years), coded AI Battleship and Tetris games, Hackathons, some competitive programming experience, some app development"
-        },
-        {
-            "imageLink": "EthanShao.jpg",
-            "firstName": "Ethan",
-            "lastName": "Shao",
-            "grade": "8",
-            "hobbies": "Robotics, Biking, Chess",
-            "csExperience": "Python, Html, Css"
         },
         {
             "imageLink": "Yuanheng.jpg",
             "firstName": "Yuanheng",
             "lastName": "Mao",
-            "grade": "8",
-            "hobbies": "Soccer, Coding, Tennis, Stocks",
-            "csExperience": "Processing, Arduino, Java, Python, basics of HTML and Javascript"
+            "grade": "11",
+            "hobbies": "Track, Raspberry Pi/Arduino Robotics, Piano, Reading",
+            "csExperience": "Java, Python, Processing, HTML, CSS, JavaScript"
         },
         {
-            "imageLink": "IreneGao.png",
-            "firstName": "Irene",
-            "lastName": "Gao",
+            "imageLink": "EthanShao.jpg",
+            "firstName": "Ethan",
+            "lastName": "Shao",
+            "grade": "11",
+            "hobbies": "Robotics, Biking, Chess, Cooking, Playing Guitar",
+            "csExperience": "Python, HTML, CSS, C++, Java"
+        },
+        {
+            "imageLink": "KevinZhu.jpg",
+            "firstName": "Kevin",
+            "lastName": "Zhu",
+            "grade": "12",
+            "hobbies": "3D Printing, Soccer",
+            "csExperience": "JavaScript/TypeScript for web dev, C++ for competitive programming"
+        },
+        {
+            "imageLink": "EmmaHe.jpeg",
+            "firstName": "Emma",
+            "lastName": "He",
+            "grade": "11",
+            "hobbies": "Dance, Flute, Poetry",
+            "csExperience": "Python & Java"
+        },
+        {
+            "imageLink": "LillianYang.jpg",
+            "firstName": "Lillian",
+            "lastName": "Yang",
+            "grade": "11",
+            "hobbies": "Debate, Piano, and Skating",
+            "csExperience": "HTML, Java"
+        },
+        {
+            "imageLink": "ClaireLiu.jpg",
+            "firstName": "Claire",
+            "lastName": "Liu",
+            "grade": "11",
+            "hobbies": "Dance, flute, read, draw",
+            "csExperience": "Java, Python, HTML"
+        },
+        {
+            "imageLink": "SophiaZhou.jpeg",
+            "firstName": "Sophia",
+            "lastName": "Zhou",
+            "grade": "11",
+            "hobbies": "I enjoy reading and playing video games.",
+            "csExperience": "Python, Java, Javascript"
+        },
+        {
+            "imageLink": "JoleyLeung.png",
+            "firstName": "Joley",
+            "lastName": "Leung",
+            "grade": "11",
+            "hobbies": "Doodling, Baking and Dancing",
+            "csExperience": "Photoshop, Illustrator, Java, Python"
+        },
+        {
+            "imageLink": "JerryXu.jpg",
+            "firstName": "Jerry",
+            "lastName": "Xu",
+            "grade": "11",
+            "hobbies": "math, biology, history, MTG, ping-pong, hiking",
+            "csExperience": "Java, Python, HTML, CSS, JavaScript, AI-related technologies (RAG and ReAct Agent), arduino"
+        },
+        {
+            "imageLink": "JustinWang.jpg",
+            "firstName": "Justin",
+            "lastName": "Wang",
             "grade": "10",
-            "hobbies": "I enjoy reading novels, drawing digitally, watching ballet, doing crew and learning languages in my spare time.",
-            "csExperience": "I am currently the Gold level for the USACO competition and I am comfortable to program in Java, Python and C++, some web development."
-        },
+            "hobbies": "Fencing, photography",
+            "csExperience": "JavaScript for web dev, Python for competitive programming"
+        }
+    ],
+    "member": [
         {
-            "imageLink": "EliOlcott.png",
-            "firstName": "Eli",
-            "lastName": "Olcott",
+            "imageLink": "Lucas.jpg",
+            "firstName": "Lucas",
+            "lastName": "Zheng",
             "grade": "11",
-            "hobbies": "Coding, soccer, video games, and math",
-            "csExperience": "C#, C++, C, Java, Python, HTML, CSS, and JS"
+            "hobbies": "Playing video games, hanging out with friends, lock picking",
+            "csExperience": "Java, processing, some python(self-taught)"
         },
         {
-            "imageLink": "NeilLin.png",
-            "firstName": "Neil",
+            "imageLink": "RenLin.jpeg",
+            "firstName": "Ren",
             "lastName": "Lin",
-            "grade": "11",
-            "hobbies": "swimming, coding",
-            "csExperience": "java, python, c++"
+            "grade": "10",
+            "hobbies": "Volleyball, Web and Game Dev",
+            "csExperience": "Java, C++, and C#"
         },
         {
-            "imageLink": "KaterinaLung.png",
-            "firstName": "Katerina",
-            "lastName": "Lung",
+            "imageLink": "StephenYang.JPG",
+            "firstName": "Stephen",
+            "lastName": "Yang",
+            "grade": "8",
+            "hobbies": "Piano, Saxophone, Soccer, Basketball, Swimming, Tennis, Reading, Biking",
+            "csExperience": "HTML, CSS, A bit of JS and Python"
+        },
+        {
+            "imageLink": "WilliamYang.jpeg",
+            "firstName": "William",
+            "lastName": "Yang",
             "grade": "9",
-            "hobbies": "coding, fencing, drawing",
-            "csExperience": "java and python"
+            "hobbies": "I love playing tennis, keeping saltwater aquariums, playing the cello, and playing video games.",
+            "csExperience": "Java, Python"
+        },
+        {
+            "imageLink": "AndrewGu.HEIC",
+            "firstName": "Andrew",
+            "lastName": "Gu",
+            "grade": "11",
+            "hobbies": "Soccer, Track & Field",
+            "csExperience": "Java, C++"
+        },
+        {
+            "imageLink": "Isabella.jpeg",
+            "firstName": "Isabella",
+            "lastName": "Li",
+            "grade": "10",
+            "hobbies": "music, learning languages, anime",
+            "csExperience": "C++, Python, HTML, CSS"
+        },
+        {
+            "imageLink": "DylanFu.jpg",
+            "firstName": "Dylan",
+            "lastName": "Fu",
+            "grade": "10",
+            "hobbies": "Running, Tennis, Violin",
+            "csExperience": "Python, Java"
+        },
+        {
+            "imageLink": "JasmineGu.jpg",
+            "firstName": "Jasmine",
+            "lastName": "Gu",
+            "grade": "11",
+            "hobbies": "violin, spending time with friends, watching documentaries",
+            "csExperience": "Java, C++, Python, HTML"
+        },
+        {
+            "imageLink": "JiaweiLiu2.jpg",
+            "firstName": "Jiawei",
+            "lastName": "Liu",
+            "grade": "9",
+            "hobbies": "Math, Basketball, Geography, Swimming, Badminton, Ping Pong, Writing, Piano",
+            "csExperience": "Python, HTML"
+        },
+        {
+            "imageLink": "MichaelHe.jpeg",
+            "firstName": "Michael",
+            "lastName": "He",
+            "grade": "11",
+            "hobbies": "coding, math, track and field, and reading",
+            "csExperience": "Java, C++, and some Python"
+        },
+        {
+            "imageLink": "AndrewPanPlaceholder",
+            "firstName": "Andrew",
+            "lastName": "Pan",
+            "grade": "placeholder",
+            "hobbies": "placeholder",
+            "csExperience": "placeholder"
+        },
+        {
+            "imageLink": "AndrewWu.png",
+            "firstName": "Andrew",
+            "lastName": "Wu",
+            "grade": "10",
+            "hobbies": "History, economics, hanging out with friends",
+            "csExperience": "Java, HTML"
+        },
+        {
+            "imageLink": "AndrewZhao.jpg",
+            "firstName": "Andrew",
+            "lastName": "Zhao",
+            "grade": "9",
+            "hobbies": "Volleyball, camping, fishing",
+            "csExperience": "Java, C++"
         }
     ]
 }
